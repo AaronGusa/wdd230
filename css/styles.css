@@ -9,9 +9,10 @@ body {
 header {
     display: grid;
     grid-template-columns: 200px auto;
-    background-color: rgb(51,119,170);
+    background-color: #28453A;
     border-radius: 20px;
     box-shadow: 2px 6px 24px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
 }
 
 h2 {
@@ -35,7 +36,7 @@ h3 {
 footer {
     color: white;
     padding: 20px;
-    background-color: rgb(51,119,170);
+    background-color: #28453A;
     text-align: center;
     border-radius: 20px;
     box-shadow: 2px 6px 24px rgba(0, 0, 0, 0.5);
@@ -61,4 +62,7 @@ footer {
     box-shadow: 2px 6px 24px rgba(0, 0, 0, 0.5);
 }
 
-
+#currentdate {
+    font-size: 1.2em;
+    font-weight: bold;
+}
