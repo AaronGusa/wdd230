@@ -1,9 +1,9 @@
-body {
-    justify-content: center;
-    justify-items: center;
-    align-content: center;
-    align-items: center;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,200;0,300;1,100&display=swap');
+
+body { 
     max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
   }
 
 header {
@@ -12,6 +12,24 @@ header {
     background-color: rgb(51,119,170);
     border-radius: 20px;
     box-shadow: 2px 6px 24px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+ul li{
+    font-family: 'Roboto Mono', monospace;
+}
+
+h3 {
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    font-size: .75em;
+    margin-top: -5px;
+    margin-bottom: 25px;
 }
 
 footer {
@@ -23,19 +41,24 @@ footer {
     box-shadow: 2px 6px 24px rgba(0, 0, 0, 0.5);
 }
 
+
 #nameheader {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-size: 2.5em;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2.5em;
-    color: white;
     text-shadow: 2px 2px 15px black;
 }
 
 #familyphoto {
-    grid-column: 1;
     height: 170px;
     margin: 20px;
     border-radius: 5px;
     box-shadow: 2px 6px 24px rgba(0, 0, 0, 0.5);
 }
+
+
