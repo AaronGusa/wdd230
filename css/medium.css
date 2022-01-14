@@ -1,0 +1,38 @@
+@media only screen and (min-width: 32.5em) {
+    
+    header {
+        display: grid;
+        grid-template-columns: 200px auto;
+        background-color: #28453A;
+        border-radius: 20px;
+        box-shadow: 2px 6px 24px rgba(0, 0, 0, 0.5);
+        overflow: hidden;
+    }
+
+    #nameheader {
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 400;
+        letter-spacing: 5px;
+        font-size: 3.5em;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-shadow: 2px 2px 15px black;
+    }
+   
+   
+    h2 {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 2.5em;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    }
+
+    #familyphoto {
+        width: 170px;
+        margin: 20px;
+        border-radius: 5px;
+        box-shadow: 2px 6px 24px rgba(0, 0, 0, 0.5);
+    }
+
+}
