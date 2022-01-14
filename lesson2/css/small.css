@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:wght@300;400;600&display=swap');
 
+header {
+    margin-top: 0em;
+    padding-top: 0em;
+}
+
 body {
     background-color: #282d38;
 }
@@ -58,6 +63,29 @@ img {
     max-width: 100%;
     box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
     margin: 0.5rem;
+}
+
+footer{
+    color: white;
+    text-align: center;
+}
+
+#headerelement1, #headerelement2 {
+    background-color: #282d38;
+    color: white;
+    border: none;
+    text-align: center;
+    
+
+}
+
+#headerelement1 {
+    margin-bottom: 0;
+}
+
+#headerelement2 {
+    margin-top: 0;
+    font-size: 1.2em;
 }
 
 #visualheirarchy {
