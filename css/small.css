@@ -4,6 +4,7 @@ body {
     max-width: 600px;
     margin: auto;
     margin-top: 50px;
+    padding: auto;
   }
 
 header {
@@ -57,7 +58,6 @@ footer {
 #lowerindex {
     font-family: 'Roboto Mono', monospace;
     font-style: italic;
-    font-size: .75em;
     margin-top: -5px;
     margin-bottom: 25px;
 }
