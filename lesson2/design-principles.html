@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aaron G Lesson 2 WDD230</title>
     <link rel="stylesheet" href="css/normalize.css">
-    
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
+    <script defer src="js/l2script.js"></script>
 </head>
 <body>
     <header>
@@ -73,8 +73,12 @@
     </main>
     <footer>
         <p>© 2022 | Aaron B. Gusa | Utah</p>
-        <p id="currentdate"></p>
+        <p id="modifydateL2"></p>
         <a class="returnlink" href="/wdd230/index.html">Go Back</a>
+        <script>
+            let l2mod = document.lastModified;
+            document.getElementById("modifydateL2").innerHTML = l2mod;
+        </script>
     </footer>
 </body>
 </html>

@@ -103,3 +103,8 @@ footer{
 #contrastparc {
     columns: 3;
 }
+
+#modifydateL2 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
