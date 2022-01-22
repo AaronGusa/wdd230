@@ -1,0 +1,50 @@
+/*---------Lesson 3 CSS---------------*/
+
+
+
+.commBody {
+    background-color: rgb(210,191,121, 0.35);
+    justify-content: center;
+}
+
+#commHead, #commFoot {
+    background-color: #5f6b6b;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#commHead {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 0 5px 0 5px;
+    margin: 0;
+}
+
+.commH1, .commName {
+    grid-column: span 5;
+}
+
+#commNav {
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    grid-column: span 5;
+    grid-row: 3;
+    display: flex;
+    
+}
+
+#commLogo {
+    grid-row: span 2;
+    justify-content: center;
+    width: 350px;
+    height: auto;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#l3return {
+    font-size: 1em;
+}

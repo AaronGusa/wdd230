@@ -1,0 +1,219 @@
+@media only screen and (min-width: 60.5em) {
+    
+
+
+    body { 
+        border: 5px solid  #5f6b6b;
+        border-radius: 20px;
+        background-color: rgb(210,191,121, 0.35);
+        max-width: 85%;
+        margin:auto;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        padding: 1rem;
+        justify-content: center;
+    }
+
+
+    header, footer {
+        font-family: 'Playfair Display SC', serif;
+        color: white;
+        padding: 0;
+        background-color: #5f6b6b;
+        border-radius: 20px;
+        box-shadow: 2px 6px 24px rgba(0, 0, 0, 0.5);
+        text-align: center;
+        letter-spacing: 0.2rem;
+    }
+
+    header {
+        font-size: 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        font-size: 1rem;
+        margin-top: 1em;
+    }
+
+    h1 {
+        font-family: 'Playfair Display SC', serif;
+        font-weight: 700;
+        letter-spacing: 5px;
+        font-size: 2.2em;
+        color: white;
+        text-shadow: 2px 2px 15px black;
+        grid-column: span 5;
+        padding: 0;
+        margin: 0;
+    }
+
+    h2 {
+        font-family: 'Playfair Display SC', serif;
+        font-size: 1.5em;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+        margin: 10px 10px 0 10px;
+    }
+
+    h3 {
+        font-family: 'Playfair Display SC', serif;
+        font-size: 1.5em;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+        margin: 10px 10px 0 10px;
+    }
+
+    ul {
+        color: white;
+        display: flex;
+        font-family: 'Playfair Display SC', serif;
+        font-size: 1rem;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+        list-style: none;
+
+    }    
+
+    a, .returnlink {
+        text-decoration: none;
+        color: white;    
+    }
+
+    a:hover, .returnlink:hover {
+        color: #5f6b6b;
+        transition-duration: 600ms;
+    }
+
+
+    li{
+        list-style: none;
+        font-size: 1.5rem;
+        text-decoration: none;
+        padding: 1em;
+        margin: 0;
+        align-items: center;
+    }
+
+    li:hover, .returnlink:hover {
+        text-decoration: none;
+        background-color: white;
+        transform: scale(1.3);
+        transition-duration: 800ms;
+        border-radius: 20px;
+    }
+
+
+    p {
+        font-family: 'IBM Plex Serif', serif;
+        font-size: 1.25rem;
+        padding: 1em;
+        margin: 0;
+    }
+
+    .commName {
+        grid-column: span 5;
+        margin: 0;
+    }
+
+    #commLink {
+        color: #5f6b6b;
+        font-size: 2em;
+    }
+
+    #modifydate {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    #titlebody {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .returnlink {
+        font-family: 'Playfair Display SC', serif;
+        font-size: 1.5em;
+        margin-top: 20px;
+        text-decoration: none;
+        padding: .25em;
+    }
+
+    #commLogo {
+        grid-row: span 2;
+        justify-content: center;
+        width: 350px;
+        height: auto;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .personas {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        padding: 0.5em;
+    }
+
+    .personaHead {
+        align-items: top;
+        justify-content: center;
+    }
+
+    .personaImages {
+        border: 10px solid white;
+        padding: 0;
+        margin: 1em 0 1em 1em;
+        box-shadow: 12px 6px 44px rgba(0, 0, 0, 0.5);
+        width: 25%;
+    }
+
+    .personaPara {
+        align-items: bottom;
+        justify-content: left;
+        background-color: #5f6b6b;
+        color: white;
+        border-radius: 0 20px 20px 0;
+        box-shadow: 12px 6px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    #colorBack {
+        background-image: linear-gradient(to right, rgb(210,191,121, 0.0), rgb(210,191,121, 1));
+        border-radius: 0 20px 20px 0;
+    }
+
+    #colorPara, #colorHeadFootBack {
+        background-image: linear-gradient(to right, rgb(95,107,107, 0.0), rgb(95,107,107, 1));
+        border-radius: 0 20px 20px 0;
+    }
+
+    #colorPara, #colorHeadFootBack {
+        background-image: linear-gradient(to right, rgb(95,107,107, 0.0), rgb(95,107,107, 1));
+        border-radius: 0 20px 20px 0;
+    }
+
+    #colorHeadFootText {
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+        border-radius: 0 20px 20px 0;
+    }
+
+    #colorText {
+        color: white;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgb(255, 255, 255));
+        border-radius: 20px;
+    }
+
+    #fontTitle {
+        font-family: 'Playfair Display SC', serif;
+        font-weight: 700;
+    }
+
+    #fontTypeH {
+        font-family: 'IBM Plex Serif', serif;
+    }
+
+        
+
+}
