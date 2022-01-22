@@ -158,7 +158,7 @@
     }
 
     .personaHead {
-        align-items: top;
+        align-items: flex-start;
         justify-content: center;
     }
 
@@ -171,7 +171,6 @@
     }
 
     .personaPara {
-        align-items: bottom;
         justify-content: left;
         background-color: #5f6b6b;
         color: white;

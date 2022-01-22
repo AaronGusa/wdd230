@@ -171,8 +171,7 @@ p {
 }
 
 .personaHead {
-    align-items: top;
-    justify-content: center;
+    text-align: center;
 }
 
 .personaImages {
@@ -184,7 +183,6 @@ p {
 }
 
 .personaPara {
-    align-items: bottom;
     justify-content: left;
     background-color: #5f6b6b;
     color: white;
@@ -226,42 +224,3 @@ p {
 #fontTypeH {
     font-family: 'IBM Plex Serif', serif;
 }
-
-/*---------Index CSS---------------*/
-
-/*
-
-.commBody {
-    background-color: rgb(210,191,121, 0.35);
-    justify-content: center;
-}
-
-#commHead, #commFoot {
-    background-color: #5f6b6b;
-    justify-content: center;
-    border-radius: 10px;
-}
-
-
-
-.commH1, .commName {
-    grid-column: span 5;
-}
-
-#commNav {
-    text-decoration: none;
-    list-style: none;
-    width: 100%;
-    grid-column: span 5;
-    grid-row: 3;
-    display: flex;
-    
-}
-
-
-
-#l3return {
-    font-size: 1em;
-}
-
-*/
