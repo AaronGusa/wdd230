@@ -53,6 +53,7 @@
         margin: 0.2rem;
         padding: 0.2rem;
         align-items: center;
+        width: 300px;
     }
 
     .SQspot img {
@@ -84,7 +85,7 @@
     }
 
     .SQnews p {
-        font-size: 1.2rem;
+        font-size: 1.05rem;
     }
 
     /*-----------------------------JOIN---------------------------*/
@@ -96,7 +97,7 @@
     }
 
     .SQjoin p {
-        font-size: 1.25rem;
+        font-size: 1.15rem;
     }
 
     /* ---------------------------------------- Footer ----- */
