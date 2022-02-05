@@ -126,40 +126,255 @@ nav ul li a:hover {
 	content: "⚞ ";
 }
 
-/* ------------------------------------------------------- Main SQ's ----*/
+/*----------------------------BANNER-----------------------------*/
 
-main section div {
-    display: grid;
-    grid-template-rows: auto;
-    color: #fff;
-    font-weight: bold;
-    padding: .5rem;
-    margin: 0.2rem;
-    background-color: rgba(37, 59, 83, 0.4);
-    border: 1px solid rgba(37, 59, 83, 0.7);
+.banner {
+    display: none;
 }
 
-#SQspot {
-    height: calc(30vh);
+.bannershow {
+    display: block;
+    padding: 1rem;
+    padding-right: 40px;
+    margin: 1rem;
+    background-color: white;
+    color: black;
+    font-size: 1.4rem;
+    border-radius: 7px;
+    font-family: 'IBM Plex Serif', serif;
+    text-align: center;
+}
+
+
+/* ------------------------------------------------------- Main SQ's ----*/
+
+main {
     display: grid;
+    grid-template-rows: auto;
+    grid-gap: 1rem; 
+    color: #fff;
+    font-weight: bold;
+    padding: 0;
+    margin: 0.2rem;
+    /*background-color: rgba(37, 59, 83, 0.4);*/
+    border: 1px solid rgba(37, 59, 83, 0.7);
+    overflow: hidden;
+}
+
+main div {
+    background-color: rgba(37, 59, 83, 0.4);
+    padding: 0;
+
+    overflow: hidden;
+}
+
+h2 {
+    
+    width: 100%;
+    margin-left: 15px;
+    text-shadow: 5px 5px 3px #000;
+    margin: 2px auto;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+p {
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 400;
+}
+
+/*-------------------------HERO------------------*/
+
+.SQhero {
+    position: relative;
+    text-align: left;
+    background-color: transparent;
+    margin: 0;
+    /*height: 200px;*/
+    overflow: hidden;
+}
+
+.SQhero span {
+    display: block;
+}
+
+.SQhero img {
+    width: 100%;
+}
+
+.SQhero h1 {
+    position: absolute;
+    width: 100%;
+    top: 5px;
+    left: 15px;
+    text-shadow: 5px 5px 3px #000;
+    margin: 2px auto;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.SQhero button {
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    border-radius: 15px;
+    bottom: 15px;
+    right: 10px;
+    background: radial-gradient(#fff, rgba(37, 59, 83, 0.7));
+    color: #000;
+    font-family: "Playfair Display SC", sans-serif;
+    font-weight: 800;
+}
+
+/*-------------------------EVENT------------------*/
+
+.SQevent {
+    position: relative;
+    text-align: left;
+    background-color: transparent;
+    margin: 0;
+    height: 228px;
+    padding: 0.7rem;
+    overflow: hidden;
+    background-color: rgba(37, 59, 83, 0.4);
+}
+
+.SQevent section {
+    display: block;
+    width: 100%;
+    top: 10px;
+    margin-top: 0;
+    margin-right: 0.75rem;
+    justify-content: center;
+}
+
+.SQevent h2 {
+    justify-content: left;
+    width: 100%;
+    top: 5px;
+    left: 15px;
+    text-shadow: 5px 5px 3px #000;
+    margin: 2px auto;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.SQevent h3, .SQevent p {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.SQevent h3 {
+    color: #eee;
+    text-shadow: 5px 5px 8px #000;
+}
+
+/*-------------------------WEATHER------------------*/
+.SQweather {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: 250px;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.SQweather section img {
+    width: 150px;
+    float: left;
+    top: 35px;
+}
+
+.SQweather section {
+    display: block;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 5px;
+    padding-right: 10px;
+    margin: 0 auto;
+}
+
+.SQweather h2 {
+    color: #eee;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.SQweather section p {
+    color: #eee;
+    text-align: center;
+    text-shadow: 5px 5px 8px #000;
+}
+
+.SQweather section p:nth-child(3) {
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.SQweather section p:nth-child(5) {
+    border-top: #eee;
+    color: #eee;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    border-top: 2px solid white;
+    padding-top: 1.5rem;
+}
+
+/*-------------------------NEWS------------------*/
+
+.SQnews {
+    padding: 10px;
+
+}
+
+.SQnews p {
+    color: white;
+    font-weight: 400;
+}
+
+/*-------------------------SPOTLIGHTS------------------*/
+
+.SQspot {
+    display: grid;
+    grid-gap: 15px;
     grid-template-rows: 1fr 1fr;
     margin: 0.2rem;
     padding: 0.2rem;
     background-color: rgba(37, 59, 83, 0.4);
     border: 1px solid rgba(37, 59, 83, 0.7);
+    color: white;
+    justify-content: center;
+    text-align: center;
 }
 
-#spot3, #SQjoin {
+
+.SQspot div section {
+    display: block;
+}
+
+.SQspot  p {
+    margin: .25rem;
+    padding: 0;
+}
+
+#spot3, .SQjoin {
     display: none;
 }
 
 .spotlight {
+    height: 350px;
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;;
+    justify-items: center;
 }
 
-.divBox {
-    height: 120px;
-}
+/*-------------------------JOIN------------------*/
+
 
 
 /* ------------------------------------------------------- Footer ----*/

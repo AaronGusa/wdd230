@@ -1,6 +1,6 @@
 @media only screen and (min-width: 64rem) {
 
-    main section {
+    main {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: 3fr 3fr;
@@ -10,55 +10,93 @@
         margin: 0.2rem;
     }
 
-    main section div {
+    main {
         background-color: rgba(37, 59, 83, 0.4);
         border: 1px solid rgba(37, 59, 83, 0.7);
     }
     
-    #SQhero {
+    /*-----------------------------HERO---------------------------*/
+
+    .SQhero {
         height: 575px;
         grid-column: 2;
         grid-row: span 2;
+        margin: 0;
     }
-    
-    #SQevent {
+
+    .SQhero h1 {
+        font-size: 4rem;
+        text-align: center;
+        width: 96%;
+    }
+
+    .SQhero img {
+        position: relative;
+        width: auto;
+        height: 100%;
+    }
+
+    /*-----------------------------Event---------------------------*/
+
+    .SQevent {
         height: 275px;
         grid-column: 1;
         grid-row: 1;
     }
     
-    #SQspot {
+    /*-----------------------------Spotlight---------------------------*/
+
+    .SQspot {
         grid-column: 3;
         grid-row: span  3;
         display: block;
         margin: 0.2rem;
         padding: 0.2rem;
-        height: 810px;
+        align-items: center;
+    }
+
+    .SQspot img {
+        width: 100px;
+    }
+
+    .spotlight {
+        height: 240px;
     }
 
     #spot3 {
         display: block;
     }
     
-    #SQweather {
+    /*-----------------------------WEATHER---------------------------*/
+
+    .SQweather {
         grid-column: 1;
         grid-row: 2;
         height: 275px;
     }
+
+    /*-----------------------------NEWS---------------------------*/
     
-    #SQnews {
+    .SQnews {
         height: 200px;
         grid-column: 2;
         grid-row: 3;
     }
 
-    #SQjoin {
-        grid-column: 1;
-        grid-row: 3;
+    .SQnews p {
+        font-size: 1.2rem;
     }
 
-    .spotlight {
-        height: 240px;
+    /*-----------------------------JOIN---------------------------*/
+
+    .SQjoin {
+        grid-column: 1;
+        grid-row: 3;
+        height: 195px;
+    }
+
+    .SQjoin p {
+        font-size: 1.25rem;
     }
 
     /* ---------------------------------------- Footer ----- */
