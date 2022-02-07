@@ -13,6 +13,8 @@
     main {
         background-color: rgba(37, 59, 83, 0.4);
         border: 1px solid rgba(37, 59, 83, 0.7);
+        justify-items: center;
+        grid-gap: 2rem;
     }
     
     /*-----------------------------HERO---------------------------*/
@@ -22,18 +24,22 @@
         grid-column: 2;
         grid-row: span 2;
         margin: 0;
+        overflow: hidden;
+        height: 100%;
     }
 
     .SQhero h1 {
         font-size: 4rem;
         text-align: center;
         width: 96%;
+        border-radius: 10px;
     }
 
     .SQhero img {
         position: relative;
-        width: auto;
         height: 100%;
+        width: 100%;
+        object-fit: fill;
     }
 
     /*-----------------------------Event---------------------------*/
@@ -53,7 +59,12 @@
         margin: 0.2rem;
         padding: 0.2rem;
         align-items: center;
-        width: 300px;
+        width: 100%;
+        min-width: 300px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-row-gap: 2rem;
     }
 
     .SQspot img {
@@ -73,7 +84,13 @@
     .SQweather {
         grid-column: 1;
         grid-row: 2;
-        height: 275px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .SQweather img {
+        height: 100%;
+        width: 100%;
     }
 
     /*-----------------------------NEWS---------------------------*/
