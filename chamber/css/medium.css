@@ -182,7 +182,7 @@ main {
     text-align: center;
 }
 
-.SQjoin button {
+/*.SQjoin button {
     width: 95%;
     height: 75px;
     border-radius: 15px;
@@ -191,7 +191,7 @@ main {
     font-family: "Playfair Display SC", sans-serif;
     font-size: 1.75rem;
     font-weight: bolder;
-}
+}*/
 
 .SQjoin p {
     font-size: 1.5rem;

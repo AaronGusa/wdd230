@@ -203,6 +203,7 @@ p {
 }
 
 .SQhero h1 {
+    font-size: 1.25rem;
     position: absolute;
     width: 100%;
     top: 5px;
@@ -375,7 +376,16 @@ p {
 
 /*-------------------------JOIN------------------*/
 
-
+.SQjoin button {
+    width: 95%;
+    height: 75px;
+    border-radius: 15px;
+    background: radial-gradient(#fff, rgba(37, 59, 83, 0.7));
+    color: #000;
+    font-family: "Playfair Display SC", sans-serif;
+    font-size: 1.75rem;
+    font-weight: bolder;
+}
 
 /* ------------------------------------------------------- Footer ----*/
 

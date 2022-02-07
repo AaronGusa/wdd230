@@ -16,6 +16,14 @@
         justify-items: center;
         grid-gap: 2rem;
     }
+
+    main:hover {
+        cursor: url("../images/meow.cur"), default;
+    }
+
+    main button:hover, main a:hover {
+        cursor: url('../images/meow2.cur'), auto;
+    }
     
     /*-----------------------------HERO---------------------------*/
 
@@ -26,6 +34,7 @@
         margin: 0;
         overflow: hidden;
         height: 100%;
+        width: 100%;
     }
 
     .SQhero h1 {
@@ -40,6 +49,17 @@
         height: 100%;
         width: 100%;
         object-fit: fill;
+    }
+
+    .SQhero button {
+        width: 50%;
+        height: 75px;
+        border-radius: 15px;
+        background: radial-gradient(#fff, rgba(37, 59, 83, 0.7));
+        color: #000;
+        font-family: "Playfair Display SC", sans-serif;
+        font-size: 1.75rem;
+        font-weight: bolder;
     }
 
     /*-----------------------------Event---------------------------*/
@@ -60,7 +80,7 @@
         padding: 0.2rem;
         align-items: center;
         width: 100%;
-        min-width: 300px;
+        min-width: 275px;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -116,6 +136,7 @@
     .SQjoin p {
         font-size: 1.15rem;
     }
+
 
     /* ---------------------------------------- Footer ----- */
 
