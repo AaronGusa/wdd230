@@ -183,6 +183,13 @@ p {
     font-weight: 400;
 }
 
+a {
+    text-decoration: none;
+    color: yellow;
+
+    
+}
+
 /*-------------------------HERO------------------*/
 
 .SQhero {
@@ -243,6 +250,7 @@ p {
 .SQevent section {
     display: block;
     width: 100%;
+    height: 100%;
     top: 10px;
     margin-top: 0;
     margin-right: 0.75rem;
@@ -271,6 +279,8 @@ p {
     color: #eee;
     text-shadow: 5px 5px 8px #000;
 }
+
+
 
 /*-------------------------WEATHER------------------*/
 .SQweather {
@@ -368,9 +378,6 @@ p {
 
 .spotlight {
     height: 350px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;;
     justify-items: center;
 }
 

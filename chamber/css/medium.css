@@ -108,6 +108,12 @@ main {
     display: block;
 }
 
+.SQhero img {
+    object-position: center;
+    width: 100%;
+    margin-top:-100px;
+}
+
 
 /*-----------------------------EVENT---------------------------*/
 
