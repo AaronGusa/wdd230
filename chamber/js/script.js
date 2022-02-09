@@ -22,3 +22,4 @@ if (dayOfWeek === 1) {
 } else if (dayOfWeek === 2) {
     document.getElementsByClassName("banner")[0].classList.toggle("bannershow");
 }
+
