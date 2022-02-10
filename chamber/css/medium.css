@@ -144,6 +144,10 @@ main {
 
 /*-----------------------------WEATHER---------------------------*/
 
+#temperature {
+    font-size: 1.25rem;
+}
+
 #windDiv {
     font-size: 1.15rem;
     padding: 0;
