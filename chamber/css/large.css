@@ -136,6 +136,10 @@
         width: 100%;
     }
 
+    #temperature {
+        font-size: 1.75rem;
+    }
+
     #winDiv {
         height: 100%;
         border-bottom: 2px solid white;
