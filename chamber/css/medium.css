@@ -144,21 +144,11 @@ main {
 
 /*-----------------------------WEATHER---------------------------*/
 
-.SQweather section p:nth-child(5) {
+#windDiv {
     font-size: 1.15rem;
     padding: 0;
-    padding-top: 0.75rem;
     margin-top: 1.5rem;
     margin-bottom: 0;
-    font-weight: 800;
-    text-align: center;
-}
-
-.SQweather section p:nth-child(6) {
-    font-size: 1.15rem;
-    padding: 0;
-    padding-top: 0.75rem;
-    margin-top: 0;
     font-weight: 800;
     text-align: center;
 }

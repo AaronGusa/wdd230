@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <script defer src="js/script.js"></script>
+    <script defer src="js/windchill.js"></script>
 </head>
 <body>
     <header>
@@ -19,7 +20,7 @@
             <a href="https://indeed.com"><img class="socialHead" src="images/indeed_logo.png" alt="fblogo"></a>
         </div>
         <div class="headDiv">
-            <img class="logoHead" src="images/WJChamberLogo.png" alt="logo" width="200">
+            <img class="logoHead" src="images/WJChamberLogo.webp" alt="logo" width="200">
             <div class="mainTitle">
                 <h1>West Jordan</h1>
                 <p>Chamber of Commerce</p>    
@@ -41,14 +42,12 @@
     </header>
     <main>
         <div class="SQhero">
-            
             <img src="images/pexels-brett-sayles-1115322.jpg" alt="Photo by Brett Sayles from Pexels" 
                 sizes="100vw"
                 srcset="images/small.png 200w,
                         images/medium.png 560w,
                         images/large.png 1020w"                
             >
-            
             <section>
                 <h1 class="mainh1">Welcome to the West Jordan Chamber of Commerce</h1>
                 <button>Sign Up</button>
@@ -71,10 +70,12 @@
             <section>
                 <img src="images/Weather.png" alt="sun and cloud">    
                 <h2>Weather Summary</h2>
-                <p>33°F</p>
+                <p id="temperature" value='33' >33°F</p>
                 <p>Partly Cloudy</p>
-                <p>Wind Speed: 500mph</p>
-                <p>Wind Chill: -17°F</p>
+                <div id="windDiv">
+                    <p id="windSpeed" value='500'>Wind Speed: 500mph</p>
+                    <p id="windChill"></p>
+                </div>
             </section>
         </div>
         <div class="SQnews">
@@ -119,7 +120,7 @@
         </div>     
     </main>
     <footer>
-        <img class="logoFoot" src="images/WJChamberLogo.png" alt="logo2">
+        <img class="logoFoot" src="images/WJChamberLogo.webp" alt="logo2">
         <div class="addFoot">
             <p>West Jordan Chamber of Commerce</p>
             <p>2053 West 7800 South<br>West Jordan, UT 84088</p>
