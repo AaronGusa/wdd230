@@ -320,19 +320,28 @@ a {
     text-shadow: 5px 5px 8px #000;
 }
 
-.SQweather section p:nth-child(3) {
-    font-size: 2rem;
+#windDiv {
+    background-color: rgba(91, 117, 145, 0.6);
+    font-size: 1.1rem;
     padding: 0;
     margin: 0;
-}
-
-.SQweather section p:nth-child(5) {
+    border-top: #eee;
+    color: #eee;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    border-top: 2px solid white;
+    clear: both;
+    /* background-color: rgba(91, 117, 145, 0.6);
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
     border-top: #eee;
     color: #eee;
     text-align: center;
     text-shadow: 1px 1px 1px #000;
     border-top: 2px solid white;
     padding-top: 1.5rem;
+    clear: both;*/
 }
 
 /*-------------------------NEWS------------------*/
