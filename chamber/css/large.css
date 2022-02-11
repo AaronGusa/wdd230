@@ -81,7 +81,7 @@
     }
 
     .SQevent section h3 {
-        font-size: 1.5rem;
+        font-size: 2.0rem;
     }
 
     .SQevent section p {
@@ -131,10 +131,10 @@
         width: 100%;
     }
 
-    .SQweather img {
+    /*.SQweather img {
         height: 100%;
         width: 100%;
-    }
+    }*/
 
     #temperature {
         font-size: 1.75rem;
@@ -143,6 +143,11 @@
     #winDiv {
         height: 100%;
         border-bottom: 2px solid white;
+    }
+
+    #weatherIcon {
+        position: relative;
+
     }
 
     /*-----------------------------NEWS---------------------------*/

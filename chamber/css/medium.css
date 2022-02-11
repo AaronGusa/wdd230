@@ -119,10 +119,44 @@ main {
 
 .SQevent {
     grid-row: 5;
+    position: relative;
+    text-align: left;
+    /*background-color: transparent;
+    margin: 0;*/
+    overflow: hidden;
+    background-color: rgba(37, 59, 83, 0.4);
+    height: 100%;
 }
+    
+.SQevent section {
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 10px;
+    margin-top: 0;
+    margin-right: 0.75rem;
+    justify-content: center;
+}
+
+
+.SQevent h2 {
+    justify-content: left;
+    width: 100%;
+    top: 5px;
+    left: 15px;
+    text-shadow: 5px 5px 3px #000;
+    margin: 2px auto;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 
 .SQevent section{
     margin-left: 0;
+}
+
+.SQevent section h3 {
+    font-size: 1.85rem;
 }
 
 /*-----------------------------SPOT---------------------------*/
@@ -144,19 +178,50 @@ main {
 
 /*-----------------------------WEATHER---------------------------*/
 
+.SQweather {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color: transparent;
+    overflow: hidden;
+}
+
 #temperature {
     font-size: 1.25rem;
 }
 
+#weatherIcon {
+    
+    float: left;
+    /*top: 35px;*/
+}
+
 #windDiv {
     font-size: 1.15rem;
-    padding: 0;
+    height: 100%;
+    /*padding: 0;
     margin-top: 1.5rem;
     margin-bottom: 0;
     font-weight: 800;
-    text-align: center;
+    text-align: center;*/
 }
 
+.SQweather section {
+    display: block;
+    height: 100%;
+    /*padding-right: 10px;*/
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+#weatherWrap {
+    height: 100%;
+}
+
+#weatherBack {
+    height: 100%;
+}
 
 /*-----------------------------NEWS---------------------------*/
 
