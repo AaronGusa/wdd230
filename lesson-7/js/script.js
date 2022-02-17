@@ -1,8 +1,10 @@
+// Headline JS
 
 let start = -1;
 let end = start + 1;
 const headerClass = document.getElementById("etch");
 let headline = ["Aaron's Lazy Placeholders"]
+
 
 function headerPrint() {   
     setTimeout(function() {
@@ -19,6 +21,8 @@ function headerPrint() {
   } 
 
 headerPrint();
+
+// Lazy loading
 
 let imagesToLoad = document.querySelectorAll('img[data-src]');
 
@@ -56,7 +60,7 @@ if('IntersectionObserver' in window) {
   }
 
   
-
+// OLDER Technique
 
 /*const images = document.querySelectorAll("[data-src]");
 
