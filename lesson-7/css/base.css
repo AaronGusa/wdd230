@@ -29,3 +29,11 @@ img {
     filter: blur(0em);
     transition: filter 0.5s;
   }
+
+body:hover {
+    cursor: url("../images/meow.cur"), default;
+}
+
+body button:hover, body a:hover {
+    cursor: url('../images/meow2.cur'), auto;
+}

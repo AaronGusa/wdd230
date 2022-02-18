@@ -10,6 +10,11 @@
         padding: 0.8rem;
     }
 
+    header { 
+        display: flex;
+        flex-direction: column;
+    }
+
     .headDiv {
         display: flex;
         flex-wrap: wrap;
@@ -17,11 +22,21 @@
         margin: 0;
         padding: 0;
     }
+
+    .logoHead {
+        margin: 0;
+        padding-bottom: 0.5rem;
+    }
     
+    nav {
+        grid-row: 2;
+        border-top: 1px solid #fff;
+    }
     
     nav ul {
         display: flex;
-        margin: 0.8rem;
+        flex-wrap: wrap;
+        margin: 0;
         border: none;
         list-style-type: none;
         justify-content: space-evenly;
@@ -46,6 +61,7 @@
         margin-bottom: 1.2rem;
     }
 
+    
     
     nav ul li a {
         color: #fff;;
@@ -110,8 +126,9 @@ main {
 
 .SQhero img {
     object-position: center;
-    width: 100%;
-    margin-top:-100px;
+    width: auto;
+    height: 100%;
+    
 }
 
 
@@ -299,6 +316,10 @@ main {
     
     .modifiedFoot {
         grid-column: span 4;
+    }
+
+    .logoFoot {
+        width: 200px;
     }
 
 } /* --- media close --- */

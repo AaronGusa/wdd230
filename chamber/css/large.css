@@ -17,12 +17,9 @@
         grid-gap: 2rem;
     }
 
-    main:hover {
-        cursor: url("../images/meow.cur"), default;
-    }
-
-    main button:hover, main a:hover {
-        cursor: url('../images/meow2.cur'), auto;
+    .socialHead {
+        width: 75px;
+        height: auto;
     }
     
     /*-----------------------------HERO---------------------------*/
@@ -192,5 +189,12 @@
         padding-left: 50px;
     }
 
+
+
+    /*------------------------------------------- Discovery HTML ------- */
+    .discMain {
+        display: block;
+        
+    }
 
 }

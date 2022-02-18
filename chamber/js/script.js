@@ -1,11 +1,12 @@
 let modifiedlast = document.lastModified
 const fulldate = `Last Updated: ${modifiedlast}`;
+
 // using getElementById
-document.getElementById("modifydate").textContent = fulldate;
+document.getElementsByClassName("modifyDate").innerHTML = fulldate;
 
 function toggleMenu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
-}
+};
 
 
 const datefield = document.querySelector("#today");
@@ -21,5 +22,5 @@ if (dayOfWeek === 1) {
     document.getElementsByClassName("banner")[0].classList.toggle("bannershow");
 } else if (dayOfWeek === 2) {
     document.getElementsByClassName("banner")[0].classList.toggle("bannershow");
-}
+};
 
