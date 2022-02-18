@@ -26,14 +26,26 @@ img[data-src] {
   }
   
 img {
+    width: 300px;
+    height: auto;
     filter: blur(0em);
-    transition: filter 0.5s;
+    transition: 800ms;
   }
+
+img:hover {
+    width: 500px;
+    height: auto;
+    border-radius: 25%;
+    transform: scale(1);
+    border: 10px solid rgb(47, 85, 50);
+    transition-timing-function: ease-in-out;
+}
+
 
 body:hover {
     cursor: url("../images/meow.cur"), default;
 }
 
-body button:hover, body a:hover {
+body img:hover {
     cursor: url('../images/meow2.cur'), auto;
 }
