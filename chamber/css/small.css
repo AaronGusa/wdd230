@@ -44,8 +44,10 @@ header img:nth-child(0) {
 }
 
 .socialHead {
-    width: 50px;
+    width: 70px;
+    margin: .75rem;
     margin-bottom: 1.2rem;
+    
 }
 
 header h1 {
@@ -87,12 +89,13 @@ nav ul  {
 }
 
 nav ul li a {
+    font-size: 2rem;
     color: #fff;;
     text-decoration: none;
     letter-spacing: 0.2rem;
     padding: 0.8rem;
     margin: 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 nav ul li a:hover {
@@ -102,7 +105,8 @@ nav ul li a:hover {
 }
 
 .navigation a.menu::before {
-	content: "☰ ";
+	font-size: 2rem;
+    content: "☰ ";
 }
 
 .navigation li:first-child {
@@ -444,3 +448,69 @@ footer a {
     justify-content: center;
 }
 
+/*------------------------------------------- Discovery HTML ----------------------------------------------------------------- */
+.discMain {
+    display: block;
+}
+
+.discTopCont {
+    text-align: center;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+    border: none;
+  }
+
+img {
+    height: auto;
+    filter: blur(0em);
+    transition: 800ms;
+}
+
+.discImageCont {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 400px);
+    justify-items: center;
+    grid-row-gap: 2rem;
+    margin: 0;
+    padding: 1rem;
+}
+
+.discPictureCont {
+    display: absolute;
+    overflow: hidden;
+    width: 100%;
+    object-position: center;
+    transition: 800ms;
+    border: 4px solid rgba(255, 255, 255, 0.8);
+    margin: 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+
+
+.discImages {
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+figcaption {
+    color: rgb(255,255,255);
+    background-color: rgba(96, 108, 108, 0.85);
+    font-size: 1.3rem;
+    height: 50px;
+    align-items: center;
+    padding: 0.25rem;
+    margin: 0;
+    text-shadow: 2px 2px 2px #000;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 100;
+    border:3px solid rgba(255, 255, 255, 0.8);
+    border-left: none;
+    border-right: none;
+    position: relative;
+    bottom: 4rem;
+}

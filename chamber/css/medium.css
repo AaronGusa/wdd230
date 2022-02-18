@@ -322,4 +322,37 @@ main {
         width: 200px;
     }
 
+    /* ---------------------------------------------------------- Discovery HTML ---------- */
+    .discImageCont {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 400px);
+        justify-items: center;
+        grid-row-gap: 2rem;
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .discPictureCont {
+        display: absolute;
+        overflow: hidden;
+        border-radius: 20px;
+        width: 75%;
+        object-position: center;
+        transition: 800ms;
+        border: 7px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .discImages {
+        width: auto;
+        height: 100%;
+    }
+
+    .discPictureCont:hover {
+        border-radius: 0;
+        width: 100%;
+        transition-timing-function: ease-in-out;
+        border: 4px solid rgb(255, 255, 255);
+    }
+
 } /* --- media close --- */

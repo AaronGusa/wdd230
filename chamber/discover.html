@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <script defer src="js/daysBetween.js"></script>
+    <script defer src="js/lazyload.js"></script>
+    <script defer src="js/script.js"></script>
 </head>
 <body>
     <header>
@@ -44,13 +46,47 @@
     </header>
     <main class="discMain">
         <div class="discTopCont">
-            <h1>I swear this was working    </h1>
-            <p id="date"></p>
+            <h1>Here find the industries represented in our Chamber of Commerce.</h1>
+            <h2 id="date">Thank you for exploring, we're glad you are here.</h2>
             <p id="days"></p>
         </div>
         <div class="discImageCont">
-            <picture class="discImages">
-                <img src="https://placeimg.com/300/400/nature" alt="placeholder rando pic">
+            <picture class="discPictureCont">
+                <img class="discImages" src="../images/uhoh.webp" data-src="images/wjcoc1.webp" alt="www.rawpixel.com public domain image">
+                <figcaption class="figcaption">West Jordan Farmer's Market</figcaption>
+            </picture>
+            <picture class="discPictureCont">
+                <img class="discImages" src="../images/uhoh.webp" data-src="images/wjcoc2.webp" alt="www.rawpixel.com public domain image">
+                <figcaption class="figcaption">Vinzenzo's Traditional Pizza</figcaption>
+            </picture>
+
+            <picture class="discPictureCont">
+                <img class="discImages" src="../images/uhoh.webp" data-src="images/wjcoc3.webp" alt="www.rawpixel.com public domain image">
+                <figcaption class="figcaption">Carrie's Cafe</figcaption>
+            </picture>
+            <picture class="discPictureCont">
+                <img class="discImages" src="../images/uhoh.webp" data-src="images/wjcoc4.webp" alt="www.rawpixel.com public domain image">
+                <figcaption class="figcaption">Ulysses' Used Books</figcaption>
+            </picture>
+            <picture class="discPictureCont">
+                <img class="discImages" src="../images/uhoh.webp" data-src="images/wjcoc5.webp" alt="www.rawpixel.com public domain image">
+                <figcaption class="figcaption">West Jordan Downton Confectionary</figcaption>
+            </picture>
+            <picture class="discPictureCont">
+                <img class="discImages" src="../images/uhoh.webp" data-src="images/wjcoc6.webp" alt="www.rawpixel.com public domain image">
+                <figcaption class="figcaption">Lumber by the Yard</figcaption>
+            </picture>
+            <picture class="discPictureCont">
+                <img class="discImages" src="../images/uhoh.webp" data-src="images/wjcoc7.webp" alt="www.rawpixel.com public domain image">
+                <figcaption class="figcaption">Pimpernickel Art Gallery</figcaption>
+            </picture>
+            <picture class="discPictureCont">
+                <img class="discImages" src="../images/uhoh.webp" data-src="images/wjcoc8.webp" alt="www.rawpixel.com public domain image">
+                <figcaption class="figcaption">Big Pipes Plumbers</figcaption>
+            </picture>
+            <picture class="discPictureCont" id="ninethImgCont">
+                <img class="discImages" id="ninthImg" src="../images/uhoh.webp" data-src="images/wjcoc9.webp" alt="www.rawpixel.com public domain image">
+                <figcaption class="figcaption">United Credit Union</figcaption>
             </picture>
         </div>
     </main>

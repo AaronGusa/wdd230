@@ -197,4 +197,20 @@
         
     }
 
+    .discImageCont {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 400px 400px 400px;
+        justify-items: center;
+        grid-row-gap: 2rem;
+        margin: 0;
+        padding: 1rem;
+    }
+
+    #ninethImg {
+        grid-column: 3;
+    }
+
+
+
 }
