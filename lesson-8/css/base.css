@@ -1,0 +1,63 @@
+html {
+    font-family: Ubuntu, sans-serif;
+}
+
+main {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+}
+
+#table1 {
+    width: 100%;
+    background-color: rgb(71, 107, 80);
+    border-collapse: collapse;
+    color: rgb(255, 255, 255);
+    overflow-x: auto;
+}
+
+th, tr, td {
+    border: 2px solid rgb(71, 107, 80);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+tr, td {
+    color: rgb(73, 104, 73);
+    background-color: rgb(255, 255, 255);
+}
+  
+.rowTitles {
+    color: rgb(255, 255, 255);
+    background-color: rgb(80, 122, 80);
+}
+
+.tableHead, .tableFoot {
+    background-color: rgb(73, 104, 73);
+    color: rgb(255, 255, 255);
+}
+
+.tableHead {
+    font-size: 2rem;
+}
+
+.rowOdd, .rowOdd td {
+    background-color: rgb(186, 211, 186);
+}
+
+table tbody tr:nth-child(4) td:nth-child(3) {
+    font-weight: bold;
+    color: rgb(153, 21, 21);
+    background-color: rgb(211, 186, 186);
+}
+
+#blackFriday {
+    font-style: italic;
+}
+
+footer {
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+}

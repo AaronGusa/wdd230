@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Aaron Gusa">
+    <meta name="description" content="Table creation.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron's Table</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Ubuntu:ital@0;1&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="css/base.css">
+    
+</head>
+<body>
+    <header></header>
+    <main>
+        <table id="table1">
+            <thead>
+                <tr>
+                    <th class="tableHead" colspan="3">ACME Wildwest</th>
+                </tr>
+                <tr class="rowTitles">
+                    <th id="period">Period</th>
+                    <th id="sales">Sales</th>
+                    <th id="sales_goal">Sales Goal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="rowOdd" id="augRow">
+                    <th id="august">August</th>
+                    <td headers="sales august">$3,590</td>
+                    <td headers="sales_goal august">$4,000</td>
+                </tr>
+                <tr class="rowEven" id="septRow">
+                    <th id="september">September</th>
+                    <td headers="sales september">$4,420</td>
+                    <td headers="sales_goal september">$5,000</td>
+                </tr>
+                <tr class="rowOdd" id="octRow">
+                    <th id="october">October</th>
+                    <td headers="sales october">$4,870</td>
+                    <td headers="sales_goal october">$5,000</td>
+                </tr>
+                <tr class="rowEven" id="novRow">
+                    <th id="november">November</th>
+                    <td headers="sales november">$8,610</td>
+                    <td id="overBudget" headers="sales_goal november">$7,500</td>
+                </tr>
+                <tr class="rowOdd" id="bfRow">
+                    <th id="blackFriday">Black Friday</th>
+                    <td headers="sales blackFriday" colspan="2">$3,200</td>
+                </tr>
+                <tr class="rowEven" id="decRow">
+                    <th id="december">December</th>
+                    <td headers="sales december">$6,820</td>
+                    <td headers="sales_goal december">$7,500</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th class="tableFoot" colspan="3">Compiled <span id="compiled">2.21.2022</span> by AGusa</th>
+                </tr>
+            </tfoot>
+            
+        </table>
+
+    </main>
+    <footer>
+        <p>&copy;2022 | Aaron Gusa | WDD-230 </p>
+    </footer>
+</body>
+</html>
