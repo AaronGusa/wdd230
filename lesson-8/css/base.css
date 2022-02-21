@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Ubuntu:ital@0;1&display=swap');
+
 html {
-    font-family: Ubuntu, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 main {
