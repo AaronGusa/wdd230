@@ -63,3 +63,9 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+#returnLink {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
