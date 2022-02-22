@@ -17,6 +17,7 @@ main {
     border-collapse: collapse;
     color: rgb(255, 255, 255);
     overflow-x: auto;
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.5);
 }
 
 th, tr, td {
