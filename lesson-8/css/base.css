@@ -51,8 +51,8 @@ tr, td {
 
 table tbody tr:nth-child(4) td:nth-child(3) {
     font-weight: bold;
-    color: rgb(153, 21, 21);
-    background-color: rgb(211, 186, 186);
+    color: rgb(214, 102, 10);
+    background-color: rgb(238, 227, 106);
 }
 
 #blackFriday {
