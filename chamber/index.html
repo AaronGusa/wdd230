@@ -35,7 +35,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="../title.html">Directory</a></li>
-                <li><a href="../title.html">Join</a></li>
+                <li><a href="join.html">Join</a></li>
                 <li><a href="../title.html">Contact</a></li>
             </ul>
         </nav>
@@ -46,12 +46,13 @@
     </header>
     <main>
         <div class="SQhero">
-            <img src="images/pexels-brett-sayles-1115322.webp" alt="Photo by Brett Sayles from Pexels" 
-                sizes="100vw"
-                srcset="images/small.webp 550w,
-                        images/medium.webp 1025w,
-                        images/large.webp 1400w"                
-            >
+            <picture>
+                <source media="(max-width: 565px)" srcset="images/small.webp">
+                <source media="(max-width: 1025px)" srcset="images/medium.webp">
+                <source media="(max-width: 1500px)" srcset="images/large.webp">
+                <img src="images/large.webp" alt="office meeting">
+                <!--<img src="images/pexels-brett-sayles-1115322.webp" alt="Photo by Brett Sayles from Pexels">-->
+            </picture>
             <section>
                 <h1 class="mainh1">Welcome to the West Jordan Chamber of Commerce</h1>
                 <button>Sign Up</button>
