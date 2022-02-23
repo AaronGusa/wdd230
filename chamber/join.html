@@ -48,39 +48,39 @@
     <main id="mainJoin">  
          
         <form action="thankyou.html">
-            <legend  id="legend1" class="legends">Become a Member</legend>
+            <h1  id="joinh1">Become a Member</h1>
             <fieldset id="formMainDiv">
                 <legend class="legends">Essential Information</legend>
-                <label class="primary" for="fname"><div>First Name:</div>
-                <input class="primary" type="text" id="fname" name="fname" required></label><br>
-                <label class="primary" for="lname"><div>Last Name:</div>
-                <input class="primary" type="text" id="lname" name="lname" required></label><br>
+                <label class="primary" for="fname"> First Name:
+                <input class="primary" type="text" id="fname" name="fname" required></label>
+                <label class="primary" for="lname"> Last Name:
+                <input class="primary" type="text" id="lname" name="lname" required></label>
 
-                <label class="primary" for="business"><div>Business Name:</div>
-                    <input class="primary" type="text" id="business" name="business" required></label><br>
+                <label class="primary" for="business">Business Name:
+                    <input class="primary" type="text" id="business" name="business" required></label>
                 
-                <label class="primary" for="cell"><div>Phone:</div>
+                <label class="primary" for="cell"> Phone: 
                     <input class="primary" type="tel" id="cell" name="cell" 
-                        placeholder="123-456-7890" pattern="[0-9]{10}" required></label><br>
+                        placeholder="123-456-7890" pattern="[0-9]{10}" required></label>
                 
-                <label class="primary" for="email"><div>Email:</div>
+                <label class="primary" for="email">Email:
                 <input class="primary" type="email" id="email" name="email" placeholder="your-email@email.com" required></label><br>
             </fieldset>
             <fieldset id="fieldMembership">
                 <legend class="legends">Select Membership</legend>
-                <label class="secondary"><input  type="radio" name="membership" name="level" value="nonProfit">  Non Profit</label>
-                <label class="secondary"><input class="secondary" type="radio" name="membership" name="level" value="bronze">  Bronze</label>
-                <label class="secondary"><input class="secondary" type="radio" name="membership" name="level" value="silver">  Silver</label>
-                <label class="secondary"><input class="secondary" type="radio" name="membership" name="level" value="gold">  Gold</label>
+                <label class="secondary"><input class="radios" type="radio" name="membership" name="level" value="nonProfit">  Non Profit</label>
+                <label class="secondary"><input class="radios" type="radio" name="membership" name="level" value="bronze">  Bronze</label>
+                <label class="secondary"><input class="radios" type="radio" name="membership" name="level" value="silver">  Silver</label>
+                <label class="secondary"><input class="radios" type="radio" name="membership" name="level" value="gold">  Gold</label>
             </fieldset>
             <fieldset>
-                <legend class="legends">Additional details</legend>
-                <label for="title"><div>Title:</div>
-                    <input class="primary" type="text" id="title" name="title"></label><br>
+                <legend class="legends">Additional Details</legend>
+                <label class="primary" for="title">Title: 
+                    <input class="primary" type="text" id="title" name="title"></label>
 
                 
-                <label for="description"><div>Business Description:</div><textarea type="message" rows="4"></textarea></label>
-                <br>
+                <label class="primary" id="descriptionLabel" for="description">Business Description: <textarea type="message" rows="4"></textarea></label>
+                
             </fieldset>  
 
             <input type="submit" value="Enroll My Business" class="submitBtn">

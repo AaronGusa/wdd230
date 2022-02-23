@@ -523,97 +523,85 @@ figcaption {
 
 
 /* --------- Form ---------------*/
-form {
-    margin: 0;
-    padding: 1rem;
-    justify-items: center;
-    font-family: 'IBM Plex Serif', serif;
-    font-weight: 300;
-    border: 5px solid #5f6b6b;
 
+#mainJoin {
+    border: 5px solid rgba(95, 107, 107,0.6);
+    padding: .5rem;
 }
 
-#legend1 {
-    font-size: 2rem;
+#mainJoin h1 {
+    text-align: center;
 }
 
-.legends {
-    font-size: 1.8rem;
+fieldset {
+    margin: 1rem 0;
+    padding: 1rem 2%;
+    border:rgba(49, 64, 80, 0.788) solid 5px;
+    background-color: rgba(95, 107, 107,0.6);
+    overflow: auto;
+    box-shadow: 2px 2px 5px #2b3131 ;
 }
 
-form input.primary {
+form label.primary{
     display: block;
-    padding: 0.75rem 0;
+    padding-top: 1rem;
+    color: #ffffff;
+    font-size: 0.8rem;
     width: 100%;
-    height: 2rem;
+    max-width: 20rem;
 }
 
-form input.secondary label {
+form label.primary input, form label.primary select, form textarea {
+    -webkit-appearance: none;
     display: block;
-    font-size: 1.5rem;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 1rem;
+    border-radius: 0 10px;
+    padding: 1rem 0;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
 }
 
 form label.secondary {
     display: block;
-    font-size: 1.9rem;
     padding: .75rem 0;
     color: rgb(255, 255, 255);
 }
 
-form fieldset {
-    margin: 1rem;
-    padding: 1rem ;
-    background-color: rgba(91, 117, 145, 0.5);
-    max-width: 640px;
-}
-
-form label div {
-    padding-top: 0.5rem;
-    padding-left: 1rem;
-    background-color: rgba(210, 191, 121, 0.15);
-}
-
-label {
-    width: 99.25%;
-    margin: 0;
+form legend {
     padding: 1rem;
-    min-height: 44px;
-    font-size: 1.35rem;
-}
-
-form textarea {
-    width: 100%;
-}
-
-form label.primary input:required {
-    border-left: red solid 6px;
-    border-top: none;
-}
-
-form label.primary input:required:valid {
-    border-left: rgb(72, 179, 72) solid 6px;
+    margin: 0;
 }
 
 .submitBtn {
-    margin: 1rem;
+    margin: auto;
     padding: 2rem;
-    font-size: 1.55rem;
+    border: none;
     border-radius: 15px;
     background: radial-gradient(#fff, rgba(37, 59, 83, 0.7));
     color: #000;
     font-family: "Playfair Display SC", sans-serif;
-    font-size: 1.75rem;
+    font-size: 1rem;
     font-weight: bolder;
     display: flex;
     flex-wrap: wrap;
+    box-shadow: 2px 2px 5px #2b3131 
 }
 
+form label.primary input:required {
+    border: none;
+    border-left: rgb(187, 85, 85) solid 2px;
 
-#fieldMembership {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
+
+form label.primary input:required:valid {
+    border: none;
+    border-left: rgb(61, 190, 61) solid 4px;
+
+}
+
 
 /*--------------------------------------Thank you HTML --------------------*/
 
