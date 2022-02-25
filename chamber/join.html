@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/large.css">
     <script defer src="js/lazyload.js"></script>
     <script defer src="js/script.js"></script>
+    <script defer src="js/pageLoad.js"></script>
 </head>
 <body>
     <header>
@@ -36,7 +37,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="../title.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
+                <li ><a class="activeNav" href="join.html">Join</a></li>
                 <li><a href="../title.html">Contact</a></li>
             </ul>
         </nav>
@@ -49,6 +50,7 @@
          
         <form action="thankyou.html">
             <h1  id="joinh1">Become a Member</h1>
+            <input type="hidden" id="formDate" name="formDate">
             <fieldset id="formMainDiv">
                 <legend class="legends">Essential Information</legend>
                 <label class="primary" for="fname"> First Name:
@@ -61,29 +63,47 @@
                 
                 <label class="primary" for="cell"> Phone: 
                     <input class="primary" type="tel" id="cell" name="cell" 
-                        placeholder="123-456-7890" pattern="[0-9]{10}" required></label>
+                        placeholder="123-456-7890" pattern="[0-9]{11}" required></label>
                 
                 <label class="primary" for="email">Email:
-                <input class="primary" type="email" id="email" name="email" placeholder="your-email@email.com" required></label><br>
+                <input class="primary" type="email" id="email" name="email" placeholder="your-email@email.com" 
+                    required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"></label><br>
             </fieldset>
-            <fieldset id="fieldMembership">
-                <legend class="legends">Select Membership</legend>
-                <label class="secondary"><input class="radios" type="radio" name="membership" name="level" value="nonProfit">  Non Profit</label>
-                <label class="secondary"><input class="radios" type="radio" name="membership" name="level" value="bronze">  Bronze</label>
-                <label class="secondary"><input class="radios" type="radio" name="membership" name="level" value="silver">  Silver</label>
-                <label class="secondary"><input class="radios" type="radio" name="membership" name="level" value="gold">  Gold</label>
-            </fieldset>
-            <fieldset>
+            <div id="joinMembership">
+                <fieldset id="fieldMembership">
+                    <legend class="legends">Select Membership</legend>
+                    <label class="secondary"><input class="radios" type="radio" name="membership"  value="nonProfit">  Non Profit</label>
+                    <label class="secondary"><input class="radios" type="radio" name="membership"  value="bronze">  Bronze</label>
+                    <label class="secondary"><input class="radios" type="radio" name="membership"  value="silver">  Silver</label>
+                    <label class="secondary"><input class="radios" type="radio" name="membership"  value="gold">  Gold</label>
+                </fieldset>
+                <section id="fieldMemList">
+                    <div class="joinUl"><h2>Monthly Memberships</h2>
+                    <ul >
+                        
+                        <li id="memList0">Non Profit</li>
+                        <li class="memSub"><span id="memCost0">Free Membership</span> ................. Profile, Email, Meeting Admission, Partner Discounts</li>
+                        <li id="memList1">Bronze</li>
+                        <li class="memSub"><span id="memCost1">$99</span> ................. Profile, Email, Meeting Admission</li>
+                        <li id="memList2">Silver</li>
+                        <li class="memSub"><span id="memCost2">$199</span> ................. Bronze Benefits, Partner Discounts, Membership ID's, Included in Chamber Marketing</li>
+                        <li id="memList3">Gold</li>
+                        <li class="memSub"><span id="memCost3">$399</span> ................. Bronze & Silver Benefits, Board Membership, B2B Workshops, Tax Deductions, Professional Development</li>
+                   
+                    </ul>
+                </div>
+                </section>
+            </div>
+            <fieldset id="fieldFoot">
                 <legend class="legends">Additional Details</legend>
                 <label class="primary" for="title">Title: 
-                    <input class="primary" type="text" id="title" name="title"></label>
+                    <input class="primary" type="text" id="title" name="title" pattern="^[a-zA-Z ]{7,}[a-zA-Z]$"></label>
 
-                
-                <label class="primary" id="descriptionLabel" for="description">Business Description: <textarea type="message" rows="4"></textarea></label>
+                <label class="primary" id="descriptionLabel" for="description">Business Description: <textarea type="message" rows="5"></textarea></label>
                 
             </fieldset>  
 
-            <input type="submit" value="Enroll My Business" class="submitBtn">
+            <input id="joinButton" type="submit" value="Enroll My Business" class="submitBtn">
 
         </form> 
     </main>

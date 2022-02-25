@@ -384,8 +384,88 @@ form label.secondary {
     font-size: 1.5rem;
 }
 
-.submitBtn {
-    margin: 1rem;
+
+#joinMembership {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
 }
 
-} /* --- media close --- */
+
+/*-------------------------------membership list-------*/
+#fieldMemList {
+    display: flex;
+    font-size: 1.2rem;
+}
+
+
+#memList0 {
+    list-style: none;
+    font-size: 1.8rem;
+}
+
+#memList1, #memList2, #memList3 {
+    padding-top: 1rem;
+}
+
+#memList1, #memCost1 {
+    color: rgb(190, 125, 28);
+    list-style: none;
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 5px rgb(32, 41, 43);
+}
+
+#memList2, #memCost2 {
+    list-style: none;
+    font-size: 1.8rem;
+    background: linear-gradient(#ffffff, #b3ced4, #ffffff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#memCost2 {
+    list-style: none;
+    font-size: 1.8rem;
+    background: linear-gradient(#ffffff, #b3ced4, #ffffff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#memList3, #memCost3 {
+    list-style: none;
+    font-size: 1.8rem;
+    color:rgb(185, 173, 0);
+    text-shadow: 1px 1px 5px rgb(32, 41, 43);
+}
+
+.memList {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0.8rem;
+    padding-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px#000;
+}
+
+.joinUl {
+    border:rgba(49, 64, 80, 0.788) solid 5px;
+    
+    box-shadow: 2px 2px 5px #2b3131;
+}
+
+.memSub {
+    list-style: none;
+    border-top: 1px solid rgb(255, 255, 255);
+    color: white;/* rgb(49, 64, 80);*/
+    font-weight: 200;
+}
+
+#memCost0 {
+    color: White;
+    font-size: 1.5rem;
+}
+
+
+ /* --- media close --- */
+}

@@ -215,7 +215,48 @@
     flex-direction: column;
 }
 
+/*-------------------------------------------- join form -----------------*/
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1rem
+}
 
+#joinMembership{
+    justify-content: space-between;
+}
 
+#fieldMembership {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#fieldMemList {
+    width: 71%;
+}
+
+#fieldFoot {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#descriptionLabel {
+    width: 100%;
+    max-width: 50rem;
+}
+
+form textarea {
+    width: 100%;
+    max-width: 100%;
+}
+
+.submitBtn {
+    margin: auto;
+    width: 400px;
+    font-size: 2rem;
+}
 
 }

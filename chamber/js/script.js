@@ -24,3 +24,15 @@ if (dayOfWeek === 1) {
     document.getElementsByClassName("banner")[0].classList.toggle("bannershow");
 };
 
+// --------------------- join.html / thankyou.html --------------------------------
+//formDate = document.getElementById("formDate");
+//requestRecieved = document.getElementById("requestRecieved");
+
+//document.getElementById("formDate").addEventListener("click", () =>{ 
+  //  formTime = now;
+   // document.getElementById("formDate").setAttribute("value",formtime);
+//});
+
+//requestRecieved.innerHTML = requestRecieved.innerHTML + " " + formTime;
+
+//document.getElementById("recReq").textContent = "Here it is";
