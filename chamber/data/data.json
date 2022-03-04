@@ -1,0 +1,172 @@
+{
+    "businesses" : [
+        {
+            "name": "Godfather Pizza",
+            "address": "P.O. Box 1",
+            "postal": "84088",
+            "phone": "555-555-5550",
+            "website": "www.internet.com/theDon",
+            "logo": "https://goosa2025.github.io/wdd230/chamber/data/imagesbus/pizza.webp",
+            "ceo": "Don Vito Corleone",
+            "established": "1945",
+            "slogan": "Pizza you can't refuse" 
+        },
+        {
+            "name": "Pete's Cannolis",
+            "address": "P.O. Box 2",
+            "postal": "84088",
+            "phone": "555-555-5551",
+            "website": "www.internet.com/connoli4U",
+            "logo": "https://goosa2025.github.io/wdd230/chamber/data/imagesbus/cannolis.webp",
+            "ceo": "Peter Clemenza",
+            "established": "1944",
+            "slogan": "Leave the gun Take the cannoli" 
+        },
+        {
+            "name": "Hagen and Associates",
+            "address": "P.O. Box 3",
+            "postal": "84088",
+            "phone": "555-555-5552",
+            "website": "www.internet.com/lawyer",
+            "logo": "https://goosa2025.github.io/wdd230/chamber/data/imagesbus/hagen.webp",
+            "ceo": "Tom Hagen",
+            "established": "1940",
+            "slogan": "A lawyer with his briefcase" 
+        },
+
+        {
+            "name": "Corleone Consulting",
+            "address": "P.O. Box 4",
+            "postal": "84088",
+            "phone": "555-555-5553",
+            "website": "www.internet.com/b2b",
+            "logo": "https://goosa2025.github.io/wdd230/chamber/data/imagesbus/corleone-consult.webp",
+            "ceo": "Michael Corleone",
+            "established": "1945",
+            "slogan": "Keep your friends close" 
+        },
+
+        {
+            "name": "Italian Ice",
+            "address": "P.O. Box 5",
+            "postal": "84088",
+            "phone": "555-555-5554",
+            "website": "www.internet.com/ice",
+            "logo": "https://goosa2025.github.io/wdd230/chamber/data/imagesbus/italianice.webp",
+            "ceo": "Hyman Roth",
+            "established": "1942",
+            "slogan": "Good health is the most important thing" 
+        },
+
+        {
+            "name": "Calo Self Defense",
+            "address": "P.O. Box 6",
+            "postal": "84088",
+            "phone": "555-555-5555",
+            "website": "www.internet.com/company1",
+            "logo": "https://goosa2025.github.io/wdd230/chamber/data/imagesbus/selfdefense.webp",
+            "ceo": "Calo Corleone",
+            "established": "1940",
+            "slogan": "More dangerous than shotguns" 
+        },
+
+        {
+            "name": "Sonny's Tailored Suits",
+            "address": "P.O. Box 7",
+            "postal": "84088",
+            "phone": "555-555-5556",
+            "website": "www.internet.com/bada-bing",
+            "logo": "https://goosa2025.github.io/wdd230/chamber/data/imagesbus/tailor.webp",
+            "ceo": "Sony Corleone",
+            "established": "1952",
+            "slogan": "Bada-bing!" 
+        },
+
+        {
+            "name": "Weddings by Connie",
+            "address": "P.O. Box 8",
+            "postal": "84088",
+            "phone": "555-555-5557",
+            "website": "www.internet.com/ido",
+            "logo": "https://goosa2025.github.io/wdd230/chamber/data/imagesbus/weddings.webp",
+            "ceo": "Connie Rizzi",
+            "established": "1945",
+            "slogan": "Being strong for all of us" 
+        },
+
+        {
+            "name": "Kay Jewelers",
+            "address": "P.O. Box 9",
+            "postal": "84088",
+            "phone": "555-555-5558",
+            "website": "www.internet.com/ohkay",
+            "logo": "https://goosa2025.github.io/wdd230/chamber/data/imagesbus/kay.webp",
+            "ceo": "Kay Adams Corleone",
+            "established": "1956",
+            "slogan": "Diamonds that will blind you" 
+        },
+
+        {
+            "name": "Corleone Mall",
+            "address": "P.O. Box 10",
+            "postal": "84088",
+            "phone": "555-555-5559",
+            "website": "www.internet.com/cmall",
+            "logo": "https://goosa2025.github.io/wdd230/chamber/data/imagesbus/mall.webp",
+            "ceo": "Carlo Rizzo",
+            "established": "1941",
+            "slogan": "We are gathered together today" 
+        },
+
+        {
+            "name": "Actors Guild of West Jordan",
+            "address": "P.O. Box 11",
+            "postal": "84088",
+            "phone": "555-555-5560",
+            "website": "www.internet.com/act",
+            "logo": "https://goosa2025.github.io/wdd230/chamber/data/imagesbus/actorsguild.webp",
+            "ceo": "Al Pacino",
+            "established": "1940",
+            "slogan": "HOOOAAAAAH" 
+        },
+
+        {
+            "name": "Tiny Dancers",
+            "address": "P.O. Box 12",
+            "postal": "84088",
+            "phone": "555-555-5561",
+            "website": "www.internet.com/dancecompany",
+            "logo": "https://goosa2025.github.io/wdd230/chamber/data/imagesbus/dance.webp",
+            "ceo": "Tony Danza",
+            "established": "1952",
+            "slogan": "Hold me closer, Tony Danza" 
+        },
+
+        {
+            "name": "Motorcycle Repair",
+            "address": "P.O. Box 14",
+            "postal": "84088",
+            "phone": "555-555-5562",
+            "website": "www.internet.com/ayyy",
+            "logo": "https://goosa2025.github.io/wdd230/chamber/data/imagesbus/moto.webp",
+            "ceo": "Henry Winkler",
+            "established": "1974",
+            "slogan": "Sit on it" 
+        },
+
+        {
+            "name": "Disco Pointment",
+            "address": "P.O. Box 13",
+            "postal": "84088",
+            "phone": "555-555-5513",
+            "website": "www.internet.com/discomeh",
+            "logo": "https://goosa2025.github.io/wdd230/chamber/data/imagesbus/disco.webp",
+            "ceo": "Fredo Corleone",
+            "established": "1952",
+            "slogan": "Something for your Money" 
+        }
+
+
+
+    ]
+}
