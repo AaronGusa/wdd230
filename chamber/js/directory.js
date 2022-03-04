@@ -1,0 +1,1 @@
+const requestURL = "https://goosa2025.github.io/wdd230/chamber/data/data.json";
