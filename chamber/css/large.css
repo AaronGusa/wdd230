@@ -264,6 +264,35 @@ form textarea {
 
 /*-----------------------------------------Direcotry.HTML----------------------*/
 
+/*--------------------------------------------------------------ACTIVE DIRECTORY*/
+.cards.active {
+    display: block;
+    padding-right: .6rem;
+    padding-left: 0;
+}
 
+.cards.active section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards.active .directs h3 {
+    display: none;
+}
+
+
+.cards.active section h2 {
+    width: 350px;
+    margin: 0;
+    padding-left: 0;
+}
+
+.cards.active section img {
+    display: none;
+}
+
+/*--------------------------------------------------------------ACTIVE DIRECTORY END*/
 
 }

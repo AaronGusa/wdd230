@@ -59,3 +59,8 @@ fetch(requestURL)
         const businesses = jsonObject['businesses'];
         businesses.forEach(displayBusiness);
 });
+
+function dirButtonToggle() {
+    document.getElementById('directButton').classList.toggle('active');
+    document.getElementById('directContainer').classList.toggle('active');
+  }

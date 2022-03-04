@@ -682,6 +682,32 @@ form label.primary input:required:valid {
     overflow: hidden;
 }
 
+.directBanner {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    text-shadow: 1px 1px 50px rgba(0,0,0,0.5);
+    display: flex;
+
+}
+
+#directButton {
+    width: 4rem;
+    color: #000;
+}
+
+#directButton::before {
+    content: "☐";
+}
+
+#directButton.active::before {
+    content: "☷";
+}
+
+
+
+
+
+
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
@@ -689,8 +715,26 @@ form label.primary input:required:valid {
     margin: 0;
     padding: .5rem;
 }
+/*--------------------------------------------------------------ACTIVE DIRECTORY*/
+.cards.active {
+    display: block;
+}
 
 
+.cards.active section{
+    
+}
+
+.cards.active section h2 {
+    width: 98;
+    margin: 0;
+}
+
+.cards.active section img {
+    display: none;
+}
+
+/*--------------------------------------------------------------ACTIVE DIRECTORY END*/
 .directs img {
     width: 150px;
     background-color: rgba(255, 255, 255, 0.3);
