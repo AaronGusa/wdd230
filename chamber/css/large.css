@@ -1,6 +1,6 @@
 @media only screen and (min-width: 64rem) {
 
-    main {
+    #mainSQ {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: 3fr 3fr;
@@ -61,12 +61,14 @@
     /*-----------------------------Event---------------------------*/
 
     .SQevent {
+        
         height: 100%;
         grid-column: 1;
         grid-row: 1;
     }
 
     .SQevent section {
+        
         width: 100%;
         height: 100%;
         top: 10px;
@@ -258,5 +260,10 @@ form textarea {
     width: 400px;
     font-size: 2rem;
 }
+
+
+/*-----------------------------------------Direcotry.HTML----------------------*/
+
+
 
 }

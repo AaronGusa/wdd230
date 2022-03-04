@@ -156,7 +156,7 @@ nav ul li a:hover {
 
 /* ------------------------------------------------------- Main SQ's ----*/
 
-main {
+#mainSQ {
     display: grid;
     grid-gap: 1rem; 
     color: #fff;
@@ -229,7 +229,7 @@ a {
 .SQhero button {
     position: absolute;
     width: 250px;
-    height: 35px;
+    height: 55px;
     border-radius: 15px;
     bottom: 15px;
     right: 10px;
@@ -252,15 +252,16 @@ a {
     background-color: rgba(37, 59, 83, 0.4);*/
 }
 
-/*.SQevent section {
-    display: block;
+.SQevent section {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
     top: 10px;
     margin-top: 0;
     margin-right: 0.75rem;
     justify-content: center;
-}*/
+}
 
 /*
 .SQevent h2 {
@@ -457,19 +458,25 @@ footer a {
 
 /*------------------------------------------- Discovery HTML ----------------------------------------------------------------- */
 .discMain {
-    display: block;
+    display: block; 
+    color: #fff;
+    font-weight: bold;
+    margin: 0.2rem;
+    background-color: rgba(37, 59, 83, 0.4);
+    border: 1px solid rgba(37, 59, 83, 0.7);
+    overflow: hidden;
 }
 
 .discTopCont {
     text-align: center;
 }
 
-img[data-src] {
+.discImages img[data-src] {
     filter: blur(0.2em);
     border: none;
   }
 
-img {
+.discImages img {
     height: auto;
     filter: blur(0em);
     transition: 800ms;
@@ -533,7 +540,13 @@ figcaption {
 
 #mainJoin {
     border: 5px solid rgba(95, 107, 107,0.6);
-    padding: .5rem;
+    padding: .5rem; 
+    color: #fff;
+    font-weight: bold;
+    margin: 0.2rem;
+    background-color: rgba(37, 59, 83, 0.4);
+    border: 1px solid rgba(37, 59, 83, 0.7);
+    overflow: hidden;
 }
 
 #mainJoin h1 {
@@ -651,4 +664,55 @@ form label.primary input:required:valid {
 
 .thankMain p, .thankMain h2 {
     font-size: 2.5rem;
+}
+
+/*--------------------------------------Directory.html --------------------*/
+#directMain {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 0;
+    color: #fff;
+    font-weight: bold;
+    margin: 0.2rem;
+    background-color: rgba(37, 59, 83, 0.4);
+    border: 1px solid rgba(37, 59, 83, 0.7);
+    overflow: hidden;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-gap: .8rem;;
+    margin: 0;
+    padding: .5rem;
+}
+
+
+.directs img {
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    justify-items: center;
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.3);
+    margin-top: .5rem;
+}
+
+.directs {
+    
+    text-align: center;
+    border: 2px solid rgba(210, 191, 121,.5);
+    background-color: rgba(37, 59, 83, 0.4);
+    
+}
+
+.directs h2 {
+    width: 98%;
+}
+
+.directs p {
+    margin: 0;
+    padding: 0.2rem;
 }
