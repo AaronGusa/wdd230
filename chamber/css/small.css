@@ -127,6 +127,7 @@ nav ul li a:hover {
 .responsive li {
     display: block;
     padding: 1em;
+
   }
 
 .responsive a.menu::before {
