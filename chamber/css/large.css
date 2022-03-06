@@ -263,7 +263,10 @@ form textarea {
 
 
 /*-----------------------------------------Direcotry.HTML----------------------*/
-
+.cards section img {
+    width: 250px;
+    height: auto;
+}
 /*--------------------------------------------------------------ACTIVE DIRECTORY*/
 .cards.active {
     display: block;
