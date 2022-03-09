@@ -1,7 +1,7 @@
 // get two input values of temperature and wind speed
 const temp = document.querySelector('#temperature');
 const wind = document.querySelector('#windSpeed');
-const apiURL = "http://api.openweathermap.org/data/2.5/weather?q=West+Jordan,US&units=imperial&appid=e80bd8761b944b267a252593dcfb4a36";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?q=West+Jordan,US&units=imperial&appid=e80bd8761b944b267a252593dcfb4a36";
 
 const city = document.getElementById('city');
 const icon = document.getElementById('icon-src');
