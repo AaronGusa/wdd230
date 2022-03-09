@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Sansita+Swashed:wght@600&display=swap');
+
+body {
+    border: 15px solid black;
+    border-radius: 25px;
+    justify-content: center;
+    text-align: center;
+    margin: 2% 10% 0 10%;
+    padding: 1rem;
+    
+    box-shadow: 2px 2px 30px black;
+}
+
+h1 {
+    font-size: 4rem;
+    
+    font-family: 'Sansita Swashed', cursive;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+}
+
+#current-temp {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+#icon-src {
+    
+    font-weight: bold;
+}
+
+img {
+    width: 10%;
+    min-width: 100px;
+}
+
+#caption {
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 5px 5px 15px #324255;
+}
+
+figure {
+    border: 5px solid black;
+    border-radius: 25px;
+    padding: 1rem;
+    background-color: #5f7ea1;
+    box-shadow: 2px 2px 15px black;
+}
+
+
+
