@@ -1,5 +1,5 @@
 
-const apiURL = "http://api.openweathermap.org/data/2.5/weather?q=Fairbanks,US&units=imperial&appid=b90c905421954814626a43f26b5d9ee9";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?q=Fairbanks,US&units=imperial&appid=b90c905421954814626a43f26b5d9ee9";
 const currTemp = document.getElementById("current-temp");
 const city = document.getElementById('city');
 const icon = document.getElementById('icon-src');
