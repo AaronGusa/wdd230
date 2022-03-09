@@ -1,4 +1,3 @@
-const __apiKey = e80bd8761b944b267a252593dcfb4a36;
 
 // get two input values of temperature and wind speed
 const temp = document.querySelector('#temperature');
