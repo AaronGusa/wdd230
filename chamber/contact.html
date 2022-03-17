@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aaron Gusa">
+    <meta name="description" content="WDD 230 Chamber of Commerce mock up to demonstrate techniques and standard practices as instructed over this course.">
+    <title>Contact WJ Chamber of Commerce</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <div class="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+        <div class="socialStack">
+            <a href="https://facebook.com"><img class="socialHead" src="images/fb.webp" alt="fblogo"></a>
+            <a href="https://indeed.com"><img class="socialHead" src="images/indeed_logo.webp" alt="fblogo"></a>
+        </div>
+        <div class="headDiv">
+            <img class="logoHead" src="images/WJChamberLogo.webp" alt="logo" width="200">
+            <div class="mainTitle">
+                <h1>West Jordan</h1>
+                <p>Chamber of Commerce</p>    
+            </div>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#" onclick="toggleMenu()" class="menu"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a class="activeNav" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="dateHead">
+            <span id="today"></span>
+        </div>
+    </header>
+    <main class="mainContact">
+        <div>
+            <h1 class="contactH1">Contact Us!</h1>
+            
+        </div>
+        <div class="contactInfo">
+                <div class="cheryl">
+                    <h2>Hi! I'm Cheryl Carol</h2>
+                    <p>I am the Public Liason for the West Jordan Chamber of Commerce and I would love to hear from you!</p>
+                    <img class="contactHero" src="images/pexels-andrea-piacquadio-3756679 (1).webp" alt="office professional" >
+                </div>
+                
+        </div>
+        <section class="contactSection">
+            <div class="contact">
+                <div class="contactAddress">
+                    <h3 class="contacth3">Address & Phone</h3>
+                    <p class="contactP1">2053 West 7800 South<br>West Jordan, UT 84088 <br><br>(555) 555-5555</p>
+                </div>
+                <br>
+                <div>
+                    <h3 class="contacth3">Chairman</h3>
+                    <p class="contactP"> John "Hannibal" Smith</p>
+                    <h3 class="contacth3">First Chair</h3>
+                    <p class="contactP">  Templeton Peck</p>
+                    <h3 class="contacth3">Second Chair</h3>
+                    <p class="contactP">  H.M. "Howling Mad" Murdock</p>
+                    <h3 class="contacth3">Third Chair</h3>
+                    <p class="contactP">  Bosco B.A. Baracus</p>
+                </div>
+            </div>
+            <form class="contactForm" action="">
+                <fieldset class="fieldContact">
+                    <legend class="legends">Your Information</legend>
+                    <label class="primary" for="fname">First Name</label>
+                    <input class="contactInput" type="text" id="fname" name="fname" required>
+                    <label class="primary" for="lname">Last Name</label>
+                    <input class="contactInput" type="text" id="lname" required>
+                    <label class="primary" type="email" for="email">Email</label>
+                    <input class="contactInput" type="email" id="email" placeholder="youremail@email.com" required >
+
+                    <legend class="legends">Message</legend>
+                
+                    <textarea id="contactLabel" type="message" rows="5"></textarea>
+                    <input id="contactButton" type="submit" value="Send My Message" class="submitBtn">
+                </fieldset>
+                
+            </form>
+        </section>
+    </main>
+    <footer>
+        <img class="logoFoot" src="images/WJChamberTree.webp" alt="logo2">
+        <div class="addFoot">
+            <p>West Jordan Chamber of Commerce</p>
+            <p>2053 West 7800 South<br>West Jordan, UT 84088</p>
+        </div>
+        <div class="contactFoot">
+            <p>Email: chamber@wjchamber.org</p>
+            <p>Phone: (555) 555-5555</p>
+            <a href="https://www.google.com/maps/place/West+Jordan+Historical+Museum/@40.6091395,-111.9450751,18.75z/data=!4m5!3m4!1s0x8752892977df83a7:0x23f677e3e5c2e0be!8m2!3d40.6092845!4d-111.9454264">Map</a>
+        </div>
+        <p class="footrunner">&copy; 2022 West Jordan Chamber | Aaron Gusa | WDD230 Project</p>
+        <p class="modifiedFoot modifyDate" ></p>
+        <a class="returnlink" id="l3return" href="../index.html">Go Back to Assignments</a>
+    
+    </footer>
+</body>
+</html>

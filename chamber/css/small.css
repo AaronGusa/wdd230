@@ -529,16 +529,14 @@ figcaption {
     bottom: 4rem;
 }
 
-/* -------------------------------------------- Join.html ------------ */
+/* -------------------------------------------- Join.html & Contact.html ------------ */
 #joinH1 {
     text-align: center;
 }
 
-
-
 /* --------- Form ---------------*/
 
-#mainJoin {
+.mainJoin {
     border: 5px solid rgba(95, 107, 107,0.6);
     padding: .5rem; 
     color: #fff;
@@ -546,11 +544,20 @@ figcaption {
     margin: 0.2rem;
     background-color: rgba(37, 59, 83, 0.4);
     border: 1px solid rgba(37, 59, 83, 0.7);
-    overflow: hidden;
+    /*overflow: hidden;*/
+    display: flex;
+    flex-direction: column;
 }
 
-#mainJoin h1 {
+.mainJoin h1 {
     text-align: center;
+}
+
+.legends {
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+    font-weight: bold;
+    font-size: 1.8rem;
 }
 
 fieldset {
@@ -558,7 +565,7 @@ fieldset {
     padding: 1rem 4%;
     border:rgba(49, 64, 80, 0.788) solid 5px;
     background-color: rgba(95, 107, 107,0.6);
-    overflow: auto;
+    
     box-shadow: 2px 2px 5px #2b3131 ;
 }
 
@@ -566,7 +573,7 @@ form label.primary{
     display: block;
     padding-top: 1rem;
     color: #ffffff;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     width: 100%;
     max-width: 20rem;
 }
@@ -645,7 +652,118 @@ form label.primary input:required:valid {
     display: none;
 }
 
+/* -------------------------------------------- Contact.html ------------ */
 
+.mainContact {
+    border: 5px solid rgba(95, 107, 107,0.6);
+    padding: .5rem; 
+    color: #fff;
+    font-weight: bold;
+    margin: 0.2rem;
+    background-color: rgba(37, 59, 83, 0.4);
+    border: 1px solid rgba(37, 59, 83, 0.7);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cheryl {
+    display: grid;
+    border: 5px solid rgba(0, 0, 0, 0.4);
+    align-items: center;
+    text-align: center;
+    font-size: 1.6rem;
+    max-width: 800px;
+}
+
+.cheryl p {
+    
+}
+
+.contactH1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.contactInfo {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.contact {
+    display: none;
+    
+}
+
+.contact h2 {
+    font-size: 1.3rem;
+}
+
+.contactSection {
+    display: block;
+    /*grid-template-columns: 1fr 1fr;*/
+    justify-content: space-evenly;
+    
+}
+
+.contactHero {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+    min-width: 150px;
+    border-radius: 20px 0 20px 0;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+#contactLabel {
+    width: 92%;
+    margin-bottom: 1rem;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    margin-right: 1rem;
+    max-width: none;
+}
+
+#messageContact {
+    display: flex;
+    max-width: 500px;
+}
+
+.fieldContact {
+    
+    display: block;
+    justify-content: center;
+    padding: 2rem;
+    margin: 0;
+}
+
+.contactForm {
+    grid-column: span 2;
+    
+    justify-content: center;
+}
+
+.contactP {
+    margin-top: 0;
+    
+}
+
+.contacth31, .contacth3 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(37, 59, 83, 0.4);
+}
+
+.contactInput {
+    width: 98%;
+    height: 2rem;
+    border: none;
+}
+
+#contactButton {
+    justify-content: center;
+}
 
 /*--------------------------------------Thank you HTML --------------------*/
 
@@ -704,10 +822,6 @@ form label.primary input:required:valid {
 }
 
 
-
-
-
-
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
@@ -720,11 +834,6 @@ form label.primary input:required:valid {
     display: block;
 }
 
-
-.cards.active section{
-    
-}
-
 .cards.active section h2 {
     width: 98;
     margin: 0;
@@ -734,7 +843,7 @@ form label.primary input:required:valid {
     display: none;
 }
 
-/*--------------------------------------------------------------ACTIVE DIRECTORY END*/
+/*------------------------------------------------------ACTIVE DIRECTORY END*/
 .directs img {
     width: 150px;
     background-color: rgba(255, 255, 255, 0.3);
@@ -759,4 +868,8 @@ form label.primary input:required:valid {
 .directs p {
     margin: 0;
     padding: 0.2rem;
+}
+
+.contactH1 {
+    color: #eee;
 }
