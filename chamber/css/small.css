@@ -376,6 +376,11 @@ a {
     text-align: center;
 }
 
+.SQspot img {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.3);
+}
 
 .SQspot div section {
     display: block;
@@ -677,10 +682,6 @@ form label.primary input:required:valid {
     max-width: 800px;
 }
 
-.cheryl p {
-    
-}
-
 .contactH1 {
     font-size: 3rem;
     text-align: center;
@@ -726,6 +727,62 @@ form label.primary input:required:valid {
     max-width: none;
 }
 
+.fieldContact {
+    margin: 1rem 0;
+    padding: 1rem 4%;
+    border:rgba(49, 64, 80, 0.788) solid 5px;
+    background-color: rgba(95, 107, 107,0.6);
+    
+    box-shadow: 2px 2px 5px #2b3131 ;
+}
+
+.primaryCon {
+    font-size: 1.6rem;
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+    font-weight: bold;
+    padding: 1rem;
+    margin: 0;
+}
+
+
+
+.contactInput {
+    padding-top: 1rem;
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 1rem;
+    border-radius: 0 10px;
+    padding: 1rem;
+    width: 92%;
+    height: 2rem;
+    border: none;
+}
+
+.contactInput select {
+    -webkit-appearance: none;
+    display: block;
+    width: 90%;
+    max-width: 20rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+
+
+.contactInput:required {
+    border: none;
+    border-left: solid 4px rgb(187, 85, 85) ;
+
+}
+
+.contactInput:required:valid {
+    border: none;
+    border-left: rgb(61, 190, 61) solid 4px;
+
+}
+
 #messageContact {
     display: flex;
     max-width: 500px;
@@ -755,11 +812,6 @@ form label.primary input:required:valid {
     background-color: rgba(37, 59, 83, 0.4);
 }
 
-.contactInput {
-    width: 98%;
-    height: 2rem;
-    border: none;
-}
 
 #contactButton {
     justify-content: center;
@@ -773,6 +825,11 @@ form label.primary input:required:valid {
     gap: 0.4rem;
     text-align: center;
     padding: 4rem 0.8rem;
+    color: white;
+}
+
+.thankDiv {
+    border: 5px solid rgba(49, 64, 80, 0.788) ;
 }
 
 .thankMain h1 {
