@@ -881,7 +881,7 @@ form label.primary input:required:valid {
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(336px, 1fr));
     grid-gap: .8rem;;
     margin: 0;
     padding: .5rem;
