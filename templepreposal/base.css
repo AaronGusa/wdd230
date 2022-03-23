@@ -39,8 +39,9 @@ html {
 /*------HEADER------*/
 
 header, footer {
-    background-color: #2d5268;
-    color: white;
+    background-color: #b9ccb6;
+    color: black;
+    /*text-shadow: 3px 3px 3px black;*/
 }
 
 .headerContainer {
@@ -52,7 +53,14 @@ header, footer {
     font-family: 'Cormorant Garamond', serif;
     padding: 0 1rem;
     margin: 0;
+}
 
+.headlinersSmall {
+    display: active;
+}
+
+.headlinersLarge {
+    display: none;
 }
 
 .menu {
@@ -70,13 +78,12 @@ header, footer {
     list-style: none;
     padding: 1rem;
     margin: 0;
-    
 }
 
 .menuLink {
     text-decoration: none;
-    color: white;
-    font-size: 1.25rem;
+    color: black;
+    font-size: 1.8rem;
     padding: .4rem;
 }
 
@@ -139,10 +146,11 @@ a {
 
 
 main div {
-    border: 3px solid rgba(183, 140, 23, 0.4);
+    
     border-radius: 15px;
     margin: 0.2rem;
     padding: .8rem;
+    background-color: #eeebd9;
 }
 
 
@@ -198,6 +206,21 @@ footer {
 /*---------------------------------------------------Medium css-----*/
 
 @media only screen and (min-width: 29.6875rem) {
+
+.headlinersSmall {
+    display: none;
+}
+
+.headlinersLarge {
+    display: block;
+    padding-bottom: 1rem;
+}
+
+.headerContainer h1 {
+    font-size: 2.8rem;
+    padding-top: 2rem;
+}
+
 
 .logoContainer {
     display: flex;
