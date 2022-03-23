@@ -83,7 +83,7 @@ header, footer {
 .menuLink {
     text-decoration: none;
     color: black;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     padding: .4rem;
 }
 
@@ -221,6 +221,9 @@ footer {
     padding-top: 2rem;
 }
 
+.menuLink {
+    font-size: 1.55rem;
+}
 
 .logoContainer {
     display: flex;
@@ -250,6 +253,20 @@ footer {
 
 /*---------------------------------------------------Large css-----*/
 @media only screen and (min-width: 59.375rem) {
+
+h1, h2, h3, h4 {
+    font-family: 'Open Snas', sans-serif;
+    font-size: 1.75rem;
+}
+
+p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.75rem;
+}
+
+.menuLink {
+    font-size: 1.25rem;
+}
 
 .figureContainer {
     width: 100%;
