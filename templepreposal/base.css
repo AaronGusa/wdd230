@@ -144,6 +144,11 @@ a {
     color: white;
 }
 
+.aLight {
+    color: black;
+    text-decoration: none;
+}
+
 
 main div {
     border-radius: 15px;
