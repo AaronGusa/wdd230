@@ -1,0 +1,243 @@
+/*
+
+Contents
+
+i.   Universal
+    a. FONTS
+    b. HTML
+    c. HEADER
+    d. MAIN
+    e. FOOTER
+ii.  small
+    a. home
+    b. target
+    c. colors
+    d. type
+iii. medium
+    a. home
+    b. target
+    c. colors
+    d. type
+iv.  large
+    a. home
+    b. target
+    c. colors
+    d. type
+
+*/
+
+/* ------------------------------------Universal-----------------------------*/
+/*------FONTS-------*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Open+Sans:wght@300;400&display=swap');
+
+/*------HTML-------*/
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*------HEADER------*/
+
+header, footer {
+    background-color: #2d5268;
+    color: white;
+}
+
+.headerContainer {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.headerContainer h1, .headerContainer h2, .headerContainer h3 {
+    font-family: 'Cormorant Garamond', serif;
+    padding: 0 1rem;
+    margin: 0;
+
+}
+
+.menu {
+    /*border: 2px solid rgb(183, 140, 23);*/
+    border-top: 2px solid rgb(183, 140, 23);
+    margin: 0.8rem;
+    color: white;
+}
+
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    padding: 1rem;
+    margin: 0;
+    
+}
+
+.menuLink {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    padding: .4rem;
+}
+
+.menuLi {
+    font-size: 2.2rem;
+    padding: 0.4rem;
+    margin: 0;
+}
+
+.menuLi:hover, .menuLink:hover {
+    
+    border-radius: 25px;
+    transform: rotate(1turn);
+    transition: 1000ms;
+    transition-timing-function: ease-in-out;
+}
+
+.menuLi::after, .menuLink::after {
+    
+    border-radius: 25px;
+    transform: rotate(1turn);
+    transition: 1300ms;
+}
+
+
+.activeMenu {
+    background-color: rgb(183, 140, 23);
+    padding: 1rem;
+    border-radius: 20%;
+    transition: 300ms;
+}
+
+
+
+
+/*----------------MAIN---------------*/
+
+main {
+    margin: 0.7rem;
+    padding: 0;
+}
+
+h1, h2, h3, h4, p {
+    padding: 0 1rem;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Open Snas', sans-serif;
+    font-size: 2rem;
+}
+
+p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.2rem;
+}
+
+a {
+    color: white;
+}
+
+
+main div {
+    border: 3px solid rgba(183, 140, 23, 0.4);
+    border-radius: 15px;
+    margin: 0.2rem;
+    padding: .8rem;
+}
+
+
+.logoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(45, 82, 104);
+}
+
+.logos {
+    width: 200px;
+    height: auto;
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+figcaption {
+    text-align: center;
+    background-color: rgba(183, 140, 23, 1);
+    color: white;
+    border-radius: 20%;
+    font-weight: bold;
+    padding: 0.8rem;
+}
+
+
+.openSans {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+}
+
+.garamond {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5rem;
+}
+
+
+/*---------------FOOTER-------------*/
+
+footer {
+    margin: 0;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+/*---------------------------------------------------Medium css-----*/
+
+@media only screen and (min-width: 29.6875rem) {
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logos {
+    width: 200px;
+    height: auto;
+}
+
+.figureContainer {
+   overflow: auto; 
+
+}
+
+.figureContainer img {
+    width: 100%;
+}
+
+
+
+} /*  <---- Medium end -----------*/
+
+/*---------------------------------------------------Large css-----*/
+@media only screen and (min-width: 59.375rem) {
+
+.figureContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .figureContainer img, .figureContainer figcaption {
+     width: 755px;
+ }
+
+} /* <---- Large end -------------*/

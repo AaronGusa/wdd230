@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aaron Gusa">
+    <meta name="description" content="WDD 230 Final Project by Aaron Gusa">
+    <title>Attribution Page for Temple Inn & Suites</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+    <header>
+        <h1>Temple Inn & Suites</h1>
+        <img class="logoMain" src="data/images/Full-Logo.webp" alt="Temple Inn & Suites Logo">
+        <img class="logoCompact" src="data/images/Logo-compact.webp" alt="Temple Inn Compact Logo">
+        <nav class="menu">
+            <ul class="menuUl">
+                <li>Home</li>
+                <li>Tempeles</li>
+                <li>Reserve</li>
+                <li>Services   
+                    <ul>
+                        <li>Receptions</li>
+                        <li>Missionaries</li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--
+            The Home page is a contemporary, exciting landing page providing images of 
+            temples and temple attending activities and must include the following:
+            
+            A call to action to make a hotel reservation
+            
+            Readily available navigation and contact information for the hotel chain
+            
+            Summary information about a temple of your choosing
+            
+            Social media links (at least two)
+            
+            Current weather card that summarizes the conditions. You must use the One 
+            
+            Call API at openweathermap.org (Links to an external site.) and include the following content:
+
+            The current temperature, current condition description, and humidity.
+            
+            Weather alerts if available/applicable from the government and display it as a closeable message 
+            at the top of the page. Closeable means the user can click to remove the alert.
+            
+            Display and label a three day forecast of the "day" temperature using the current date. 
+            This can be designed in another card or area.
+        -->
+
+        <div class="callToAction">
+            <button class="buttons">Reserve Now</button>
+        </div>
+        <div class="headQuarters">
+            <h2>Welcome to Temple Inn & Suites</h2>
+            <p>At Temple Inn and Suites we complement your visit to heaven on earth
+               with lodging where you can keep the experience and reverence with you.
+            </p>
+            <hr>
+            <h2>Headquarters</h2>
+            <p>4800 Montgomery Ln #300 <br> Bethesda, MD 20814</p>
+            <p>Phone: (555) 555-5555</p>
+            <p>Email: customerservice@templeInn.com</p>
+        </div>
+        <div class="summaryTemple">
+            <h2>Temples</h2>
+        </div>
+        <div class="booking">
+            <button>Book Now!</button>
+        </div>
+        <div>
+            <h2>Social Media</h2>
+        </div>
+        <div class="weatherCard">
+            <div>
+                <h2>Weather</h2>
+                <p id="currentTemp">Current Temp: 75&deg;F</p>
+                <p>Condition: Partly Party</p>
+                <p>Humidity: 24%</p>
+                <div class="weatherAlerts">
+                    <p>Banner: Weather Weather Weather Weather <button class="closeButton">❎</button></p>
+            </div>
+            <div class="forecast">
+                <h3>3 Day Forecast</h3>
+                <div class="foreOne"></div>
+                <div class="foreTwo"></div>
+                <div class="foreThree"></div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <!--
+            Each page should have a footer that contains contact information including
+            a link to a Google map (Links to an external site.) showing the company 
+            headquarter address at 4800 Montgomery Ln #300, Bethesda, MD 20814 . Additional
+            items might include social media links (again), a basic Contact Us form, 
+            and/or other relevant material. 
+        -->
+        <img src="data/images/Wordless-Logo.webp" alt="mini-logo">
+        <div>
+            <h2>Headquarters</h2>
+            <p>4800 Montgomery Ln #300 <br> Bethesda, MD 20814</p>
+            
+            <p>Phone: (555) 555-5555</p>
+            <p>Email: customerservice@templeInn.com</p>
+            <hr>
+        </div>
+        
+        <div>
+            <h2>Social Media:</h2>
+        </div>
+
+    </footer>
+</body>
+</html>
