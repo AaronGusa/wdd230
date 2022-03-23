@@ -146,11 +146,10 @@ a {
 
 
 main div {
-    
     border-radius: 15px;
     margin: 0.2rem;
     padding: .8rem;
-    background-color: #eeebd9;
+    background-color: rgb(238, 235, 217);
 }
 
 
