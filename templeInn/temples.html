@@ -1,0 +1,89 @@
+<!--
+    The Temple page describes the details for at least four temples of your choice providing information about the address,
+    telephone, email, services, history, ordinance schedule, session schedule, temple closure schedule. This information must
+    be stored in a separate JSON file in order to be considered for full credit. You can store this .json file in another
+    📁folder in your site folder. Display the temple information like a layout of 'cards'. You may elect to have additional
+    information shown upon clicking a card. Provide a 'LIKE' button/interface that the user  can click to 'like' a particular
+    temple and that information is stored in localStorage. The next time a particular user visits, that 'like' indicator should be apparent.
+
+    Temple Information can be found on Temples list (Links to an external site.) on lds.org.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aaron Gusa">
+    <meta name="description" content="WDD 230 Final Project by Aaron Gusa">
+    <title>Temples - Temple Inn</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <script defer src="js/templeScript.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Temple Inn & Suites</h1>
+        <img class="logoMain" src="data/images/Full-Logo.webp" alt="Temple Inn & Suites Logo">
+        <img class="logoCompact" src="data/images/Logo-compact.webp" alt="Temple Inn Compact Logo">
+        <nav class="menu">
+            <ul class="menuUl">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="activeHead" href="temples.html">Temples</a></li>
+                <li><a href="reserve.html">Reserve</a></li>
+                <li>Services   
+                    <ul>
+                        <li><a href="reception.html">Reception</a></li>
+                        <li><a href="missionary.html">Missionaries</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--  -->
+        <section class="templeCards"> <!--For JSON process-->
+            <div class="templeContainer">
+                <h2 class="templeH2">Temple Name</h2>
+                <h3 class="dedication">Dedication</h3>
+                <img class="templeImg" src="#" alt="">
+                <p class="templeCity">City Name</p>
+                <p class="templeAddress">Address</p>
+                
+                <p class="ordinanceSched">Ord Sched</p>
+                <p class="sessionSched">Sess Sched</p>
+                <p class="templeClosed">Closures</p>
+                <hr>
+                <p class="templeHours">Open</p>
+                <p class="templePhone">Phone</p>
+                <p class="templeEmail">temple@temple.com</p>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <!--
+            Each page should have a footer that contains contact information including
+            a link to a Google map (Links to an external site.) showing the company 
+            headquarter address at 4800 Montgomery Ln #300, Bethesda, MD 20814 . Additional
+            items might include social media links (again), a basic Contact Us form, 
+            and/or other relevant material. 
+        -->
+        <img src="data/images/Wordless-Logo.webp" alt="mini-logo">
+        <div>
+            <h2>Headquarters</h2>
+            <p>4800 Montgomery Ln #300 <br> Bethesda, MD 20814</p>
+            
+            <p>Phone: (555) 555-5555</p>
+            <p>Email: customerservice@templeInn.com</p>
+            <hr>
+        </div>
+        
+        <div>
+            <h2>Social Media:</h2>
+        </div>
+
+    </footer>
+</body>
+</html>
