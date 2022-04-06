@@ -13,7 +13,8 @@
             "schedClosures": ["Monday, 4 April 2022 - Monday, 18 April 2022", "Saturday, 2 July 2022", "Saturday, 23 July 2022", 
                 "Monday, 19 September 2022 - Monday, 3 October 2022", "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
                 "Friday, 23 December 2022 - Saturday, 24 December 2022", "Saturday, 31 December 2022"],
-            "services": ["Clothing rental", "Distribution Center"]
+            "services": ["Clothing rental", "Distribution Center"],
+            "milestones": ["2 February 1990 - Announced", "2 May 1992 - Groundbreaking", "8 January 1995 - Dedicated"]
         },
         {
             "templeName": "Brigham City Utah Temple",
@@ -28,7 +29,8 @@
             "schedClosures": ["Monday, 8 August 2022 - Monday, 22 August 2022", "Friday, 9 September 2022 (Limited Operations)",
                 "Saturday, 10 September 2022", "Saturday, 1 October 2022", "Wednesday, 23 November 2022 (Limited Operations)",
                 "Thursday, 24 November 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022 (Limited Operations)"],
-            "services": ["Distribution Center"]
+            "services": ["Distribution Center"],
+            "milestones": ["3 October 2009 - Announced", "31 July 2010 - Groundbreaking", "23 September 2012 - Dedicated"]
         },
         {
             "templeName": "Cedar City Utah Temple",
@@ -43,7 +45,8 @@
             "schedClosures": ["Monday, 11 April 2022 - Monday, 25 April 2022", "Saturday, 1 October 2022", 
                 "Monday, 10 October 2022 - Monday, 24 October 2022", "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
                 "Saturday, 24 December 2022 - Sunday, 25 December 2022", "Saturday, 31 December 2022 - Sunday, 1 January 2023"],
-            "services": ["Clothing Rental", "Distribution Center"]
+            "services": ["Clothing Rental", "Distribution Center"],
+            "milestones": ["6 April 2013 - Announced", "8 August 2015 - Groundbreaking", "10 December 2017 - Dedicated"]
         },
         {
             "templeName": "Draper Utah Temple",
@@ -58,7 +61,8 @@
             "schedClosures": ["Monday, 29 August 2022 - Monday, 12 September 2022", "Saturday, 1 October 2022",
                 "Wednesday, 23 November 2022 (Limited Operations)", "Thursday, 24 November 2022", "Saturday, 24 December 2022",
                 "Saturday, 31 December 2022"],
-            "services": ["Clothing Rental", "Distribution Center"]
+            "services": ["Clothing Rental", "Distribution Center"],
+            "milestones": ["2 October 2004 - Announced", "5 August 2006 - Groundbreaking", "20 March 2009 - Dedicated"]
         },
         {
             "templeName": "Jordan River Utah Temple",
@@ -73,7 +77,8 @@
             "schedClosures": ["Monday, 16 May 2022 - Monday, 30 May 2022", "Saturday, 1 October 2022",
                 "Monday, 31 October 2022 - Monday, 14 November 2022", "Wednesday, 23 November 2022 (Limited Operations)",
                 "Thursday, 24 November 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022 (Limited Operations)"],
-            "services": ["Clothing Rental", "Distribution Center"]
+            "services": ["Clothing Rental", "Distribution Center"],
+            "milestones": ["3 February 1978 - Announced", "9 June 1979 - Groundbreaking", "16 November 1981 - Dedicated", "20 May 2018 - Rededicated"]
         },
         {
             "templeName": "Logan Utah Temple",
@@ -88,7 +93,8 @@
             "schedClosures": ["Saturday, 1 October 2022", "Monday, 3 October 2022 - Monday, 17 October 2022",
                 "Wednesday, 23 November 2022 (Limited Operations)", "Thursday, 24 November 2022", "Saturday, 24 December 2022",
                 "Saturday, 31 December 2022 (Limited Operations)"],
-            "services": "Clothing Rental"
+            "services": "Clothing Rental",
+            "milestones": ["6 October 1876 - Announced", "18 May 1877 - Groundbreaking", "17 May 1884 - Dedicated", "13 March 1979 - Rededicated"]
         },
         {
             "templeName": "Manti Utah Temple",
@@ -101,7 +107,8 @@
             "schedOrd": ["1:00 PM", "2:00 PM", "3:00 PM", "4:00 PM", "5:00 PM", "6:00 PM", "7:00 PM", "8:00 PM" ],
             "schedSess": ["6:00 AM", "7:00 AM", "8:00 AM", "9:00 AM", "10:00 AM", "11:00 AM", "12:00 PM", "1:00 PM" ],
             "schedClosures": ["No upcoming closures"],
-            "services": ["Clothing Rental", "Distribution Center"]
+            "services": ["Clothing Rental", "Distribution Center"],
+            "milestones": ["25 June 1875 - Announced", "25 April 1877 - Groundbreaking", "21 May 1888 - Dedicated", "14 June 1985 - Rededicated"]
         },
         {
             "templeName": "Monticello Utah Temple",
@@ -115,7 +122,8 @@
             "schedSess": ["6:00 AM", "7:00 AM", "8:00 AM", "9:00 AM", "10:00 AM", "11:00 AM", "12:00 PM", "1:00 PM" ],
             "schedClosures": ["Saturday, 23 July 2022", "Monday, 25 July 2022 - Monday, 28 November 2022", "Saturday, 24 December 2022",
                 "Saturday, 31 December 2022"],
-            "services": ["No available services"]
+            "services": ["No available services"],
+            "milestones": ["4 October 1997 - Announced", "17 November 1997 - Groundbreaking", "26 July 1998 - Dedicated", "17 November 2002 - Rededicated"]
         },
         {
             "templeName": "Mount Timpanogos Utah Temple",
@@ -130,7 +138,8 @@
             "schedClosures": ["Monday, 9 May 2022 - Monday, 23 May 2022", "Saturday, 1 October 2022",
                 "Monday, 7 November 2022 - Tuesday, 22 November 2022", "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
                 "Saturday, 24 December 2022", "Saturday, 31 December 2022"],
-            "services": ["Clothing Rental", "Distribution Center"]
+            "services": ["Clothing Rental", "Distribution Center"],
+            "milestones": ["3 October 1992 - Announced", "9 October 1993 - Groundbreaking", "13 October 1996 - Dedicated"]
         },
         {
             "templeName": "Ogden Utah Temple",
@@ -146,7 +155,8 @@
                 "Monday, 29 August 2022 - Monday, 12 September 2022", "Saturday, 1 October 2022", 
                 "Wednesday, 23 November 2022 (Limited Operations)", "Thursday, 24 November 2022", "Saturday, 24 December 2022",
                 "Saturday, 31 December 2022 (Limited Operations)"],
-            "services": ["Clothing", "Distribution Center"]
+            "services": ["Clothing", "Distribution Center"],
+            "milestones": ["24 August 1967 - Announced", "8 September 1969 - Groundbreaking", "18 January 1972 - Dedicated","21 September 2014 - Rededicated"]
         },
         {
             "templeName": "Oquirrh Mountain Utah Temple",
@@ -162,7 +172,8 @@
                 "Monday, 12 September 2022 - Monday, 26 September 2022", "Saturday, 1 October 2022", 
                 "Wednesday, 23 November 2022 (Limited Operations)", "Thursday, 24 November 2022", "Saturday, 24 December 2022",
                 "Saturday, 31 December 2022"],
-            "services": ["Distribution Center"]
+            "services": ["Distribution Center"],
+            "milestones": ["1 October 2005 - Announced", "16 December 2006 - Groundbreaking", "21 August 2009 - Dedicated"]
         },
         {
             "templeName": "Payson Utah Temple",
@@ -178,7 +189,8 @@
                 "Monday, 10 October 2022 - Monday, 17 October 2022", "Wednesday, 23 November 2022 (Limited Operations)",
                 "Thursday, 24 November 2022", "Friday, 23 December 2022 (Limited Operations)", "Saturday, 24 December 2022",
                 "Saturday, 31 December 2022 (Limited Operations)"],
-            "services": ["Clothing Rental", "Distribution Center"]
+            "services": ["Clothing Rental", "Distribution Center"],
+            "milestones": ["25 January 2010 - Announced", "8 October 2011 - Groundbreaking", "7 June 2015 - Dedicated"]
         },
         {
             "templeName": "Provo City Center Temple",
@@ -193,7 +205,8 @@
             "schedClosures": ["Monday, 20 June 2022 - Monday, 4 July 2022", "Saturday, 1 October 2022", 
                 "Wednesday, 23 November 2022 (Limited Operations)", "Thursday, 24 November 2022", 
                 "Monday, 28 November 2022 - Monday, 12 December 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"],
-            "services": ["Clothing rental", "Distribution Center"]
+            "services": ["Clothing rental", "Distribution Center"],
+            "milestones": ["1 October 2011 - Announced", "12 May 2012 - Groundbreaking", "20 March 2016 - Dedicated"]
         },
         {
             "templeName": "Provo Utah Temple",
@@ -208,7 +221,8 @@
             "schedClosures": ["Monday, 30 May 2022", "Monday, 4 July 2022 - Monday, 18 July 2022", "Monday, 25 July 2022",
                 "Monday, 5 September 2022", "Saturday, 1 October 2022", "Wednesday, 23 November 2022 (Limited Operations)",
                 "Thursday, 24 November 2022", "Monday, 19 December 2022 - Monday, 2 January 2023"],
-            "services": ["Clothing Rental", "Distribution Center"]
+            "services": ["Clothing Rental", "Distribution Center"],
+            "milestones": ["14 August 1967 - Announced", "15 June 1969 - Groundbreaking", "9 February 1972 - Dedicated"]
         },
         {
             "templeName": "Salt Lake Temple",
@@ -218,10 +232,11 @@
             "address": ["50 W North Temple St", "Salt Lake City UT 84150-9709", "United States"],
             "phone": "801-240-2640",
             "email": "",
-            "schedOrd": ["1:00 PM", "2:00 PM", "3:00 PM", "4:00 PM", "5:00 PM", "6:00 PM", "7:00 PM", "8:00 PM" ],
-            "schedSess": ["6:00 AM", "7:00 AM", "8:00 AM", "9:00 AM", "10:00 AM", "11:00 AM", "12:00 PM", "1:00 PM" ],
-            "schedClosures": ["No upcoming closures"],
-            "services": ["Clothing Rentals", "Distribution Center"]
+            "schedOrd": ["Currently closed"],
+            "schedSess": ["Currently closed" ],
+            "schedClosures": ["Closed for renovations"],
+            "services": ["Clothing Rentals", "Distribution Center"],
+            "milestones": ["28 July 1847 - Announced", "14 February 1853 - Groundbreaking", "6 April 1893 - Dedicated"]
         },
         {
             "templeName": "St. George Utah Temple",
@@ -234,7 +249,8 @@
             "schedOrd": ["Currently closed" ],
             "schedSess": ["Currently closed" ],
             "schedClosures": ["Closed for renovations"],
-            "services": ["No available services"]
+            "services": ["No available services"],
+            "milestones": ["9 November 1871 - Announced", "9 November 1871 - Groundbreaking", "6 April 1877 - Dedicated", "11 November 1975 - Rededicated"]
         },
         {
             "templeName": "Vernal Utah Temple",
@@ -248,7 +264,8 @@
             "schedSess": ["1:00 PM", "2:00 PM", "3:00 PM", "4:00 PM", "5:00 PM", "6:00 PM", "7:00 PM", "8:00 PM" ],
             "schedClosures": ["Monday, 25 April 2022 - Monday, 9 May 2022", "Monday, 19 September 2022 - Monday, 3 October 2022",
                 "Wednesday, 23 November 2022 - Thursday, 24 November 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"],
-            "services": ["Clothing Rental", "Distribution Center"]
+            "services": ["Clothing Rental", "Distribution Center"],
+            "milestones": ["13 February 1994 - Announced", "13 May 1995 - Groundbreaking", "2 November 1997 - Dedicated"]
         }
     ]
 }
