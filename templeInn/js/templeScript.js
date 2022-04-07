@@ -47,7 +47,7 @@ function cardCreator(temple) {
     city.innerHTML = `${temple.location}`;
     phone.innerHTML = `${temple.phone}`;
     email.innerHTML = `${temple.email}@churchofjesuschrist.com`;
-    address.innerHTML = `${temple.address}`;
+    address.innerHTML = `${temple.address[0]} <br>TEST ${temple.address[1]} <br> ${temple.address[2]}`;
     ordList.innerHTML = `Ordinace Schedule`;
     closeList.innerHTML = `Upcoming Closures`;
     sessList.innerHTML = `Session Schedule`;
