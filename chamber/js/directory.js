@@ -1,4 +1,4 @@
-const requestURL = "https://goosa2025.github.io/wdd230/chamber/data/data.json";
+const requestURL = "https://aarongusa.github.io/wdd230/chamber/data/data.json";
 const cards = document.querySelector(".cards");
 
 function displayBusiness(business) {

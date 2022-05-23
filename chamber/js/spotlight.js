@@ -1,5 +1,5 @@
 // Public Constants
-const requestURL = "https://goosa2025.github.io/wdd230/chamber/data/data.json";
+const requestURL = "https://aarongusa.github.io/wdd230/chamber/data/data.json";
 const spotlights = document.querySelector(".SQspot");
 const spot1Min = 1;
 const spot1Max = 5;
